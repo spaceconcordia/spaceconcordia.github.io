@@ -2014,8 +2014,8 @@ object {
    }
 }
 
-/* All Mobile Portrait size smaller than 768 (devices and browsers) */
-@media screen and (max-width: 768px) {
+/* All Mobile Portrait size smaller than 1000 (devices and browsers) */
+@media screen and (max-width: 1000px) {
 	#primary, #secondary {
 		float: none;
 		width: 100%;
