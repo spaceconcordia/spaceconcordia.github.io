@@ -2085,3 +2085,7 @@ object {
 	.header-search-icon:before { font-size: 26px; }
 	.site-header .menu-toggle { padding: 0 22px; }
 }
+
+#content {
+    background-color: #EAEAEA;
+}
