@@ -1,3 +1,32 @@
+.title-with-sep, .title-with-bg, .classic-layout .entry-title, .posts-slider .entry-title {
+    font-size: 42px;
+}
+.title-with-bg {
+    padding: 200px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title-with-bg, .title-with-bg a, .title-with-bg .read-more, .title-with-bg .sub-title, .title-with-bg .entry-title, .content-over-image, .content-over-image a, .content-over-image .read-more, .content-over-image .entry-meta, .content-over-image .entry-title {
+    color: #FFF;
+}
+
+.title-with-bg, .title-with-sep {
+    line-height: 100%;
+}
+
+.home-section .section-header {
+    text-align: center;
+}
+
+.home-section, .home-section .section-header {
+    margin-bottom: 30px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -469,8 +498,8 @@ body{
 
 .site{
 	width:90%;
-	margin:3em auto;
-	padding:0 5%;
+	padding:0 0;
+	    margin: 0 auto;
 	max-width:1280px;
 }
 
