@@ -1,30 +1,83 @@
+/*HEADER MENU
+*/
+#navigation {
+    background: none repeat scroll 0% 0% #FFF;
+    height: 48px;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+}
 
+#navigation .container {
+    position: relative;
+}
 
+.site{
+	width:70%;
+	padding:0 0;
+	    margin: 0 auto;
+	max-width:1280px;
+}
+
+.menu {
+    margin: 0px auto;
+	list-style: outside none none;
+}
+
+.menu-left {
+    float: left;
+    margin: 0px auto;
+	list-style: outside none none;
+}
+
+.menu-right {
+    float: right;
+    margin: 0px auto;
+	list-style: outside none none;
+}
+
+.menu li,.menu-left li {
+    display: inline-block;
+    margin-right: 22px;
+    position: relative;
+}
+
+.menu li a,.menu-left li a {
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #333;
+    line-height: 48px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+/* PHOTO SLIDER
+*/
 @keyframes slidy {
 
 0% { left: 0%; }
 
 15% { left: 0%; }
 
-20% { left: -100%; }
+20% { left: -100.05%; }
 
-35% { left: -100%; }
+35% { left: -100.05%; }
 
-40% { left: -200%; }
+40% { left: -200.1%; }
 
-55% { left: -200%; }
+55% { left: -200.1%; }
 
-60% { left: -300%; }
+60% { left: -300.15%; }
 
-75% { left: -300%; }
+75% { left: -300.15%; }
 
-80% { left: -400%; } 
+80% { left: -400.2%; } 
 
-100% { left: -400%; } 
+100% { left: -400.2%; } 
 }
-
-
-
 
 figure.slider figure figcaption {
 
@@ -40,31 +93,14 @@ transition: .5s bottom;
 
 }
 
-figure.slider figure:hover figcaption { bottom: 0; }
-
-figure.slider figure:hover + figure figcaption { bottom: 0; }
-
 figure.slider img { width: 100%; height: auto; }
-
-figure.slider figure figcaption {
-
-position: absolute; bottom: 0;
-
-background: rgba(0,0,0,0.3);
-
-color: #fff; width: 100%;
-
-font-size: 2rem; padding: .6rem;
-
-}
-
 
 
 div#captioned-gallery { 
 
 width: 100%; 
 overflow: hidden; 
-max-height:500px;
+max-height:600px;
 }
 
 figure { margin: 0; }
@@ -73,7 +109,7 @@ figure.slider {
 
 position: relative; width: 500%;
 
-font-size: 0; animation: 40s slidy infinite;
+font-size: 0; animation: 30s slidy infinite;
 
 }
 
@@ -86,6 +122,35 @@ display: inline-block;
 position: inherit;
 
 }
+
+
+/* 5 image section front page
+*/
+.entry-image h3{
+ text-align: center;
+}
+
+.gallery li:nth-child(5n), .gallery article:nth-child(5n) {
+    margin-right: 0px;
+}
+.gallery li, .gallery article {
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 19%;
+    margin: 0px 1.25% 1.25% 0px;
+    background: none repeat scroll 0% 0% #FFF;
+}
+
+.gallery li:nth-child(5n+0),.gallery article:nth-child(5n+0){
+	margin-right:0;
+}
+
+.gallery li:nth-child(5n+1),.gallery article:nth-child(5n+1){
+	clear:left;
+}
+
 
 
 .home-section .section-header {
@@ -189,6 +254,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding:0;
 	vertical-align:baseline;
 	outline: 0;
+	font-family: "Open Sans",sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 html{
@@ -560,7 +629,7 @@ embed,iframe,object{
 body{
 	background-size:cover;
 }
-
+/*
 .site{
 	width:70%;
 	padding:0 0;
@@ -620,7 +689,7 @@ h1.site-title.fixed,.not-home h1.site-title{
 	font-size:1.5em;
 	line-height:1.5;
 }
-
+*/
 h2.widget-title,h3.widget-title{
 	font-size:1.5em;
 	text-transform:uppercase;
@@ -640,7 +709,7 @@ h2.widget-title,h3.widget-title{
 	padding:0;
 	margin:0;
 }
-
+/*
 .gallery li,.gallery article{
 	padding:0;
 	display:inline-block;
@@ -651,16 +720,16 @@ h2.widget-title,h3.widget-title{
 	background:#ffffff;
 }
 
-.archive .gallery article{
-	padding:0;
-}
-
 .gallery li:nth-child(5n+0),.gallery article:nth-child(5n+0){
 	margin-right:0;
 }
 
 .gallery li:nth-child(5n+1),.gallery article:nth-child(5n+1){
 	clear:left;
+}
+*/
+.archive .gallery article{
+	padding:0;
 }
 
 .gallery figure img{
@@ -669,6 +738,7 @@ h2.widget-title,h3.widget-title{
 	margin:0 auto;
 }
 
+/*
 .gallery figcaption{
 	padding:5%;
 	position:relative;
@@ -714,6 +784,8 @@ h2.widget-title,h3.widget-title{
 	float:left;
 	width:100%;
 }
+
+*/
 
 .site-footer{
 	margin-bottom:40px;
