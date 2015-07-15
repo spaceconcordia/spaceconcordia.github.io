@@ -82,6 +82,19 @@
 100% { left: -400.2%; } 
 }
 
+@-moz-keyframes slidy {
+0% { left: 0%; }
+15% { left: 0%; }
+20% { left: -100.05%; }
+35% { left: -100.05%; }
+40% { left: -200.1%; }
+55% { left: -200.1%; }
+60% { left: -300.15%; }
+75% { left: -300.15%; }
+80% { left: -400.2%; } 
+100% { left: -400.2%; } 
+}
+
 figure.slider figure figcaption {
 position: absolute; bottom: -3.5rem;
 background: rgba(0,0,0,0.3);
