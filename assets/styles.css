@@ -104,8 +104,12 @@ margin: 0;
 }
 
 figure.slider {
-position: relative; width: 500%;
-font-size: 0; animation: 30s slidy infinite;
+position: relative; 
+width: 500%;
+font-size: 0; 
+animation: 30s slidy infinite;
+-webkit-animation: 30s slidy infinite;
+-moz-animation: 30s slidy infinite;
 
 }
 
