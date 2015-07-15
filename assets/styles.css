@@ -151,6 +151,15 @@ position: inherit;
 	clear:left;
 }
 
+/*INTRO TEXT
+*/
+
+
+.lead-intro {
+text-align: center;
+}
+
+
 
 
 .home-section .section-header {
