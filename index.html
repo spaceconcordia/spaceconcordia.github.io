@@ -3,65 +3,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/styles.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/bootstrap.css" type="text/css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>$(function(){$("#navigation").load("menu.html");});</script>
 </head>
 <body>
 	<nav id="navigation">	
-		<div class="site">			
-			<div id="navigation-wrapper">
-				<ul class="menu-left menu">
-					<li id="concordia-title"><a href="http://spaceconcordia.github.io/index">SPACE CONCORDIA</a></li>
-				</ul>
-				<ul class="menu-right menu">
-					<li><a href="http://spaceconcordia.github.io/news">NEWS</a></li>
-					<li><a href="http://spaceconcordia.github.io/frosh">FROSH</a></li>
-					<li><a href="http://spaceconcordia.github.io/divisions">DIVISIONS</a></li>
-					<li><a href="http://spaceconcordia.github.io/sponsers">SPONSERS</a></li>
-					<li><a href="http://spaceconcordia.github.io/members">MEMBERS</a></li>
-				</ul>
-			</div>
-			<!--	
-			<div class="menu-mobile"><div class="slicknav_menu"><a style="outline: medium none;" href="#" aria-haspopup="true" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt"></span><span class="slicknav_icon slicknav_no-text"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul role="menu" aria-hidden="true" style="display: none;" class="slicknav_nav slicknav_hidden"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-8 slicknav_collapsed slicknav_parent"><a style="outline: medium none;" href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"><a tabindex="-1" href="http://solopine.com/hemlock/">Home</a>
-<span class="slicknav_arrow">►</span></a><ul aria-hidden="true" style="display: none;" role="menu" class="sub-menu slicknav_hidden">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/?home_sidebar=true">Homepage w/ Sidebar</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-108"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock">Full Post Layout</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/?home_layout=grid">Grid Post Layout</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59 slicknav_collapsed slicknav_parent"><a style="outline: medium none;" href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"><a tabindex="-1" href="#">Features</a>
-<span class="slicknav_arrow">►</span></a><ul aria-hidden="true" style="display: none;" role="menu" class="sub-menu slicknav_hidden">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/my-trip-to-new-york/?post_sidebar=true">Post w/ Sidebar</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-88"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/my-trip-to-new-york/">Standard Post</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-89"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/cali-road-trip/">Gallery Post</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-90"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/midnight-sun-iceland/">Video Post</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-91"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/of-monsters-and-men-dirty-paws/">Music Post</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/typography/">Typography</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/page-with-sidebar/">Page w/ Sidebar</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/category/lifestyle/">Lifestyle</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/category/travel/">Travel</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/category/music/">Music</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/about/">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a tabindex="-1" role="menuitem" href="http://solopine.com/hemlock/contact-me/">Contact Me</a></li>
-</ul></div></div>
-			
-						<div id="top-search">
-					<a href="#"><i class="fa fa-search"></i></a>
-			</div>
-			<div class="show-search">
-				<form role="search" method="get" id="searchform" action="http://solopine.com/hemlock/">
-    <div>
-		<input placeholder="Search and hit enter..." name="s" id="s" type="text">
-	 </div>
-</form>			</div>
-						
-						<div id="top-social">
-				
-				<a href="http://facebook.com/solopinedesigns" target="_blank"><i class="fa fa-facebook"></i></a>				<a href="http://twitter.com/solopinedesigns" target="_blank"><i class="fa fa-twitter"></i></a>				<a href="http://instagram.com/solopine" target="_blank"><i class="fa fa-instagram"></i></a>				<a href="http://pinterest.com/solopinedesigns" target="_blank"><i class="fa fa-pinterest"></i></a>				<a href="http://bloglovin.com/#" target="_blank"><i class="fa fa-heart"></i></a>				<a href="http://plus.google.com/#" target="_blank"><i class="fa fa-google-plus"></i></a>				<a href="http://#.tumblr.com/" target="_blank"><i class="fa fa-tumblr"></i></a>								
-			</div>
-			-->			
-		</div>		
 	</nav>
+	
 <!--
 	<div class="hfeed site">
 		<header class="site-header block">
