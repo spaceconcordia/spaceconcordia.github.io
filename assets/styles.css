@@ -1,5 +1,11 @@
 /*HEADER MENU
 */
+
+
+.gallery h1, .gallery h2, .gallery h3 {
+margin-top:0px;
+margin-bottom:0px;
+}
 #navigation {
     background: none repeat scroll 0% 0% #FFF;
     height: 48px;
@@ -141,9 +147,58 @@ position: inherit;
 */
 .entry-image h3{
  text-align: center;
- min-height: 60px;
+ min-height: 55px;
 }
 
+
+
+/*
+SPONSERS
+*/
+
+.title-header{ 
+width: 100%; 
+overflow: hidden; 
+max-height:100px;
+margin-bottom: 27px;
+text-align: center;
+}
+
+.title-header h2 {
+margin: 0px;
+}
+
+.title-header h2 a {
+font-size: 20px;
+color: #000;
+letter-spacing: 4px;
+font-weight: 400;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+}
+.title-header span a{
+    display: inline-block;
+    margin-bottom: 12px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #CEA525;
+}
+
+.content-container{
+padding-top:50px;
+}
+
+.gallery li, .gallery article {
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    float: left;
+	background: none repeat scroll 0% 0% #FFF;
+	}
+/*
 .gallery li:nth-child(5n), .gallery article:nth-child(5n) {
     margin-right: 0px;
 }
@@ -164,6 +219,8 @@ position: inherit;
 .gallery li:nth-child(5n+1),.gallery article:nth-child(5n+1){
 	clear:left;
 }
+
+*/
 
 /*INTRO TEXT
 */
