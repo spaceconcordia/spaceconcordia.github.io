@@ -12,6 +12,11 @@ margin-bottom:0px;
     position: fixed;
     z-index: 999999;
     width: 100%;
+	border-bottom: 1px solid #EEE;
+	opacity: 0.95;
+	 -moz-opacity: 0.95;
+	 -webkit-opacity: 0.95;
+    filter: alpha(opacity=95); /* For IE8 and earlier */
 }
 
 #navigation .container {
@@ -44,22 +49,31 @@ margin-bottom:0px;
 
 .menu li,.menu-left li {
     display: inline-block;
-    margin-right: 22px;
+    margin-right: 20px;
     position: relative;
+}
+
+#menu-last {
+    margin-right: 0px;
+}
+
+#concordia-title a {
+    font-size: 13px;
+    font-weight: 700;
+	letter-spacing: 2px;
 }
 
 .menu li a,.menu-left li a {
     font-family: "Open Sans",sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #333;
     line-height: 48px;
     text-transform: uppercase;
     display: inline-block;
     transition: all 0.3s ease 0s;
 }
-
 /* PHOTO SLIDER
 */
 @keyframes slidy {
@@ -160,7 +174,8 @@ SPONSERS
 width: 100%; 
 overflow: hidden; 
 max-height:100px;
-margin-bottom: 27px;
+margin-bottom: 20px;
+padding-top: 25px;
 text-align: center;
 }
 
