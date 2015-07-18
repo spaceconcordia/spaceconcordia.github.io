@@ -103,7 +103,10 @@ font-size: 2rem; padding: .6rem;
 transition: .5s bottom;
 }
 
-figure.slider img { width: 100%; height: auto; }
+figure.slider img { 
+width: 100%; 
+height: 600px; 
+}
 
 
 div#captioned-gallery { 
@@ -127,7 +130,8 @@ animation: 30s slidy infinite;
 }
 
 figure.slider figure {
-width: 20%; height: auto;
+width: 20%; 
+height: auto;
 display: inline-block;
 position: inherit;
 }
@@ -864,67 +868,4 @@ nav .nav-next{
 .page-header{
 	border:0;
 	margin-top:0;
-}
-
-@media screen and (max-width: 767px) {
-	.menu-toggle,.main-navigation.toggled .nav-menu,.main-navigation.toggled li{
-		display:block;
-		width:100%;
-	}
-
-	.main-navigation ul ul,.main-navigation ul ul a,.main-navigation ul ul ul{
-		position:relative;
-		display:block;
-		background:transparent;
-		text-align:center;
-		width:100%;
-		top:0;
-		left:0;
-		font-size:0.9em;
-		box-shadow:none;
-	}
-
-	.main-navigation ul{
-		display:none;
-	}
-
-}
-
-@media screen and (max-width: 600px) {
-	.block{
-		padding-top:20px;
-	}
-
-	.site-branding{
-		width:100%
-	}
-
-	.block{
-		height:auto!important;
-	}
-
-	.gallery li,.gallery article{
-		display:block;
-		position:relative;
-		width:100%;
-		margin:0 auto 2em;
-	}
-
-	nav.main-navigation{
-		background-color:rgba(0,0,0,1);
-	}
-	
-	.site{
-	width:100%;
-}
-
-	.site-title.fixed{
-		display:none;
-	}
-
-	#menu-short{
-		overflow-y:auto;
-		max-height:400px;
-	}
-
 }
