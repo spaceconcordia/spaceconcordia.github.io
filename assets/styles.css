@@ -8,7 +8,7 @@ margin-bottom:0px;
 }
 #navigation {
     background: none repeat scroll 0% 0% #FFF;
-    height: 48px;
+    height: 45px;
     position: fixed;
     z-index: 999999;
     width: 100%;
@@ -69,7 +69,7 @@ margin-bottom:0px;
     font-weight: 400;
     letter-spacing: 1.5px;
     color: #333;
-    line-height: 48px;
+    line-height: 45px;
     text-transform: uppercase;
     display: inline-block;
     transition: all 0.3s ease 0s;
@@ -203,7 +203,7 @@ transition: all 0.3s ease 0s;
 }
 
 .content-container{
-padding-top:50px;
+padding-top:45px;
 }
 
 .gallery li, .gallery article {
