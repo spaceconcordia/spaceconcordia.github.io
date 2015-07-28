@@ -1,18 +1,22 @@
 /*HEADER MENU
 */
 
+a {
+color:#1a76ff;
+}
 
 .gallery h1, .gallery h2, .gallery h3 {
 margin-top:0px;
 margin-bottom:0px;
 }
+
 #navigation {
-    background: none repeat scroll 0% 0% #FFF;
+    background: none repeat scroll 0% 0% #778899;
     height: 45px;
     position: fixed;
     z-index: 999999;
     width: 100%;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #778899;
 	opacity: 0.95;
 	 -moz-opacity: 0.95;
 	 -webkit-opacity: 0.95;
@@ -73,6 +77,10 @@ margin-bottom:0px;
     text-transform: uppercase;
     display: inline-block;
     transition: all 0.3s ease 0s;
+}
+
+.menu-right li a{
+color:#fff38f;
 }
 /* PHOTO SLIDER
 */
