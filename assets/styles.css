@@ -5,6 +5,10 @@ a {
 color:#1a76ff;
 }
 
+body {
+background-color: #F1F2F2;
+}
+
 .gallery h1, .gallery h2, .gallery h3 {
 margin-top:0px;
 margin-bottom:0px;
@@ -26,7 +30,9 @@ padding-top:100px;
 }
 
 .content-container {
-padding-top:20px;
+padding:12px;
+
+background-color: #FFF;
 }
 
 .site{
@@ -35,6 +41,8 @@ padding-top:20px;
 	margin: 0 auto;
 	max-width:1280px;
 }
+
+
 
 .menu {
     margin: 0px auto;
