@@ -101,41 +101,32 @@ color:#FFF;
 */
 @keyframes slidy {
 0% { left: 0%; }
-15% { left: 0%; }
-20% { left: -100.05%; }
-35% { left: -100.05%; }
-40% { left: -200.1%; }
-55% { left: -200.1%; }
-60% { left: -300.15%; }
-75% { left: -300.15%; }
-80% { left: -400.2%; } 
-100% { left: -400.2%; } 
+28% { left: 0%; }
+33% { left: -100.05%; }
+61% { left: -100.05%; }
+66% { left: -200.15%; }
+95% { left: -200.15%; }
+100% { left: -300.15%; }
 }
 
 @-webkit-keyframes slidy {
 0% { left: 0%; }
-15% { left: 0%; }
-20% { left: -100.05%; }
-35% { left: -100.05%; }
-40% { left: -200.1%; }
-55% { left: -200.1%; }
-60% { left: -300.15%; }
-75% { left: -300.15%; }
-80% { left: -400.2%; } 
-100% { left: -400.2%; } 
+28% { left: 0%; }
+33% { left: -100.05%; }
+61% { left: -100.05%; }
+66% { left: -200.15%; }
+95% { left: -200.15%; }
+100% { left: -300.15%; }
 }
 
 @-moz-keyframes slidy {
 0% { left: 0%; }
-15% { left: 0%; }
-20% { left: -100.05%; }
-35% { left: -100.05%; }
-40% { left: -200.1%; }
-55% { left: -200.1%; }
-60% { left: -300.15%; }
-75% { left: -300.15%; }
-80% { left: -400.2%; } 
-100% { left: -400.2%; } 
+28% { left: 0%; }
+33% { left: -100.05%; }
+61% { left: -100.05%; }
+66% { left: -200.15%; }
+95% { left: -200.15%; }
+100% { left: -300.15%; }
 }
 
 figure.slider figure figcaption {
@@ -182,9 +173,9 @@ figure.slider {
 position: relative; 
 width: 500%;
 font-size: 0; 
-animation: 30s slidy infinite;
--webkit-animation: 30s slidy infinite;
--moz-animation: 30s slidy infinite;
+animation: 20s slidy infinite;
+-webkit-animation: 20s slidy infinite;
+-moz-animation: 20s slidy infinite;
 }
 
 figure.slider figure {
