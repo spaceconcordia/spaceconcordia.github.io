@@ -163,7 +163,7 @@ width: 100%;
 figure.slider-caption p { 
 height:60px;
 overflow:hidden;
-border-bottom:3px solid #F1F2F2;
+border-bottom:2px solid #F1F2F2;
 }
 
 div#captioned-gallery { 
@@ -181,7 +181,7 @@ overflow: hidden;
 div#captioned-gallery-companion {
 float:right; width:30%;
 padding-left:10px;
-border-left: 3px solid #F1F2F2;
+border-left: 2px solid #F1F2F2;
 }
 
 div#captioned-gallery-companion #title {
@@ -369,9 +369,6 @@ html{
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 }
-
-
-
 
 article,aside,details,figcaption,figure,footer,header,main,nav,section{
 	display:block;
