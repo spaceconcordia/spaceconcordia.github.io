@@ -158,7 +158,20 @@ overflow: hidden;
 div#captioned-gallery-companion {
 float:right; width:30%;
 padding-left:10px;
-border-left: 5px solid #F1F2F2;
+border-left: 3px solid #F1F2F2;
+}
+
+div#captioned-gallery-companion #title {
+text-align:center; 
+font-size:15px; 
+line-height:25px;
+padding-bottom:10px;
+border-bottom: 3px solid #F1F2F2;
+}
+
+#captioned-gallery-companion p {
+padding-top:10px;
+margin:0px;
 }
 
 figure { 
@@ -186,7 +199,7 @@ position: inherit;
 */
 
 .gallery {
-border-top: 5px solid #F1F2F2;
+border-top: 3px solid #F1F2F2;
 padding-top:10px;
 }
 

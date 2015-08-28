@@ -44,7 +44,7 @@ div#captioned-gallery, figure.slider img {
 height:300px;
 }
 
-div#captioned-gallery { 
+div#captioned-gallery, div#captioned-gallery-companion{ 
 width: 100%; 
 }
 
@@ -92,7 +92,7 @@ div#captioned-gallery, figure.slider img {
 height:250px;
 }
 
-div#captioned-gallery { 
+div#captioned-gallery, div#captioned-gallery-companion{ 
 width: 100%; 
 }
 
@@ -143,7 +143,7 @@ width: 100%;
 	height:250px;
 }
 
-div#captioned-gallery { 
+div#captioned-gallery, div#captioned-gallery-companion{ 
 width: 100%; 
 }
 
