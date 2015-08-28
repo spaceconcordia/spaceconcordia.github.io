@@ -67,13 +67,13 @@ background-color:#FFF;
 }
 
 #concordia-title a {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
 	letter-spacing: 2px;
 }
 
 .menu li a,.menu-left li a {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 1.5px;
     color: #FFF;
@@ -107,7 +107,6 @@ color:#FFF;
 95% { left: -200.15%; }
 100% { left: -300.15%; }
 }
-
 @-webkit-keyframes slidy {
 0% { left: 0%; }
 28% { left: 0%; }
@@ -117,7 +116,6 @@ color:#FFF;
 95% { left: -200.15%; }
 100% { left: -300.15%; }
 }
-
 @-moz-keyframes slidy {
 0% { left: 0%; }
 28% { left: 0%; }
@@ -128,20 +126,55 @@ color:#FFF;
 100% { left: -300.15%; }
 }
 
-figure.slider figure figcaption {
-position: absolute; bottom: -3.5rem;
-background: rgba(0,0,0,0.3);
-color: #fff; width: 100%;
-font-size: 2rem; padding: .6rem;
-transition: .5s bottom;
+/* CAPTION
+*/
+@keyframes slidy-caption {
+0% { top: 0%; }
+28% { top: 0%; }
+33% { top: -100.05%; }
+61% { top: -100.05%; }
+66% { top: -200.15%; }
+95% { top: -200.15%; }
+100% { top: -300.15%; }
+}
+@-webkit-keyframes slidy-caption {
+0% { top: 0%; }
+28% { top: 0%; }
+33% { top: -100.05%; }
+61% { top: -100.05%; }
+66% { top: -200.15%; }
+95% { top: -200.15%; }
+100% { top: -300.15%; }
+}
+@-moz-keyframes slidy-caption {
+0% { top: 0%; }
+28% { top: 0%; }
+33% { top: -100.05%; }
+61% { top: -100.05%; }
+66% { top: -200.15%; }
+95% { top: -200.15%; }
+100% { top: -300.15%; }
 }
 
 figure.slider img { 
 width: 100%; 
 }
 
+figure.slider-caption p { 
+height:60px;
+overflow:hidden;
+border-bottom:3px solid #F1F2F2;
+}
+
 div#captioned-gallery { 
 width: 68%; 
+overflow: hidden; 
+border: 1px solid #F1F2F2;
+}
+
+div#captioned-gallery-caption { 
+width: 100%; 
+height:60px;
 overflow: hidden; 
 }
 
@@ -175,6 +208,15 @@ font-size: 0;
 animation: 20s slidy infinite;
 -webkit-animation: 20s slidy infinite;
 -moz-animation: 20s slidy infinite;
+}
+
+figure.slider-caption {
+position: relative; 
+width: 100%;
+max-height:60px;
+animation: 20s slidy-caption infinite;
+-webkit-animation: 20s slidy-caption infinite;
+-moz-animation: 20s slidy-caption infinite;
 }
 
 figure.slider figure {
@@ -440,11 +482,6 @@ figure{
 img{
 	height:auto;
 	max-width:100%;
-}
-
-a,a:visited{
-	color:#DCDAF1;
-	text-decoration: none;
 }
 
 a:hover,a:focus,a:active{
