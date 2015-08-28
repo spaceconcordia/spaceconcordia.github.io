@@ -11,7 +11,7 @@ margin-bottom:0px;
 }
 
 #navigation {
-	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg");
+	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
     height: 170px;
     width: 100%;
 	border-bottom: 1px solid #000;
