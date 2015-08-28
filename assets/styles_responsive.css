@@ -17,7 +17,7 @@
 	clear:left;
 }
 
-div#captioned-gallery, figure.slider img {
+div#captioned-gallery, figure.slider img, div#captioned-gallery-companion {
 height:375px;
 }
 }

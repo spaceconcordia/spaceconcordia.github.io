@@ -14,7 +14,6 @@ margin-bottom:0px;
 	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
     height: 245px;
     width: 100%;
-	border-bottom: 5px solid #000;
 }
 
 #navigation .container {
@@ -31,6 +30,7 @@ padding:12px;
 
 .site{
 	width:60%;
+	padding:10 0;
 	padding:10 0;
 	margin: 0 auto;
 	max-width:1280px;
@@ -135,17 +135,17 @@ transition: .5s bottom;
 
 figure.slider img { 
 width: 100%; 
-
 }
 
 div#captioned-gallery { 
-width: 70%; 
+width: 68%; 
 overflow: hidden; 
 }
 
 div#captioned-gallery-companion {
 float:right; width:30%;
-padding:10px;
+padding-left:10px;
+border-left: 1px solid #D3D3D3;
 }
 
 figure { 
@@ -159,7 +159,6 @@ font-size: 0;
 animation: 30s slidy infinite;
 -webkit-animation: 30s slidy infinite;
 -moz-animation: 30s slidy infinite;
-
 }
 
 figure.slider figure {
@@ -172,11 +171,21 @@ position: inherit;
 
 /* 5 image section front page
 */
+
+.gallery {
+border-top: 1px solid #D3D3D3;
+padding-top:10px;
+}
+
+.entry-image {
+padding-top:15px;
+}
 .entry-image h3{
  text-align: center;
 }
 
 .entry-image-text-container {
+	padding-top:15px;
 	min-height:55px;
 	 text-align: center;
 }
@@ -224,52 +233,6 @@ transition: all 0.3s ease 0s;
 	background: none repeat scroll 0% 0% #FFF;
 	}
 
-.lead-intro {
-text-align: center;
-}
-
-
-
-
-.home-section .section-header {
-    text-align: center;
-}
-
-.title-with-sep .title, .title-with-sep .entry-title {
-    display: inline-block;
-    line-height: 120%;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #FFF;
-}
-
-.title-with-sep, .title-with-bg, .classic-layout .entry-title, .posts-slider .entry-title {
-    font-size: 42px;
-}
-.title-with-bg {
-    padding: 200px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.title-with-bg, .title-with-bg a, .title-with-bg .read-more, .title-with-bg .sub-title, .title-with-bg .entry-title, .content-over-image, .content-over-image a, .content-over-image .read-more, .content-over-image .entry-meta, .content-over-image .entry-title {
-    color: #FFF;
-}
-
-.title-with-bg, .title-with-sep {
-    line-height: 100%;
-}
-
-.home-section .section-header {
-    text-align: center;
-}
-
-.home-section, .home-section .section-header {
-    margin-bottom: 30px;
-}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
     display: block;
 }
@@ -475,107 +438,6 @@ a,a:visited{
 a:hover,a:focus,a:active{
 	color:#DCDAF1;
 	text-decoration:none;	
-}
-
-.entry-content a,.page-header a{
-	text-decoration:underline;
-}
-
-.more-link{
-	text-decoration:underline;
-}
-
-.alignleft{
-	display:inline;
-	float:left;
-	margin-right:1.5em;
-}
-
-.alignright{
-	display:inline;
-	float:right;
-	margin-left:1.5em;
-}
-
-.aligncenter{
-	clear:both;
-	display:block;
-	margin:0 auto;
-}
-
-
-table{
-	margin-bottom:1.5em;
-	width:100%;
-	max-width:100%;
-}
-
-thead tr:last-of-type th{
-	border-bottom-width:2px;
-}
-
-.main-navigation{
-	position:fixed;
-	top:0;
-	left:0;
-	clear:both;
-	display:block;
-	float:left;
-	width:100%;
-	text-transform:uppercase;
-	z-index:5;
-	-webkit-transition:background-color 300ms linear;
-	-moz-transition:background-color 300ms linear;
-	-o-transition:background-color 300ms linear;
-	-ms-transition:background-color 300ms linear;
-	transition:background-color 300ms linear;
-}
-
-.main-navigation ul{
-	list-style:none;
-	margin:0;
-	padding-left:0;
-	float:right;
-}
-
-.main-navigation li{
-	float:left;
-	position:relative;
-}
-
-.main-navigation a{
-	display:block;
-	text-decoration:none;
-	padding:1em;
-}
-
-.main-navigation ul ul{
-	box-shadow:0 3px 3px rgba(0,0,0,0.2);
-	display:none;
-	float:left;
-	left:0;
-	position:absolute;
-	top:3.5em;
-	z-index:99999;
-	text-align:left;
-	background:rgba(0,0,0,.2);
-}
-
-.main-navigation ul li:last-child ul{
-	left:-100%;
-}
-
-.main-navigation ul ul ul{
-	left:100%;
-	top:0;
-}
-
-.main-navigation ul ul a{
-	width:200px;
-}
-
-.main-navigation ul li:hover>ul{
-	display:block;
 }
 
 .main-navigation .current_page_item a,.main-navigation .current-menu-item a{
@@ -876,31 +738,6 @@ h2.widget-title,h3.widget-title{
 	width:26px;
 	height:26px;
 }
-
-.entry-meta{
-	background:rgba(0,0,0,.2);
-	color:#fff;
-	font-size:.8em;
-	padding:1em;
-	margin:1em 0;
-}
-
-.entry-meta a{
-	color:#fff;
-}
-
-.entry-meta .genericon{
-	vertical-align:middle;
-}
-
-nav .nav-previous{
-	float:left;
-}
-
-nav .nav-next{
-	float:right;
-}
-
 .gallery figcaption a{
 	color:#f23e2f;
 }
