@@ -30,7 +30,7 @@ padding:12px;
 }
 
 .site{
-	width:70%;
+	width:60%;
 	padding:10 0;
 	margin: 0 auto;
 	max-width:1280px;
@@ -143,8 +143,9 @@ width: 70%;
 overflow: hidden; 
 }
 
-div#captioned-gallery, figure.slider img {
-height:450px;
+div#captioned-gallery-companion {
+float:right; width:30%;
+padding:10px;
 }
 
 figure { 
@@ -173,9 +174,12 @@ position: inherit;
 */
 .entry-image h3{
  text-align: center;
- min-height: 55px;
 }
 
+.entry-image-text-container {
+	min-height:55px;
+	 text-align: center;
+}
 /*
 SPONSERS
 */
