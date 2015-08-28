@@ -67,14 +67,13 @@ background-color:#FFF;
 }
 
 #concordia-title a {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 	letter-spacing: 2px;
 }
 
 .menu li a,.menu-left li a {
-    font-family: "Open Sans",sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 1.5px;
     color: #FFF;
@@ -238,7 +237,6 @@ transition: all 0.3s ease 0s;
 .title-header span a{
     display: inline-block;
     margin-bottom: 12px;
-    font-family: "Open Sans",sans-serif;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -317,8 +315,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding:0;
 	vertical-align:baseline;
 	outline: 0;
-	font-family: "Open Sans",sans-serif;
-    font-size: 11px;
+	font-family: "Economica",Arial,sans-serif;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -572,3 +570,9 @@ embed,iframe,object{
 	color:#f23e2f;
 }
 
+@font-face {
+  font-family: "Economica";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Economica"), local("Economica-Regular"), url("http://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMG1tXRa8TVwTICgirnJhmVJw.woff2") format("woff2");
+}
