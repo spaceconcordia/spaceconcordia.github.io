@@ -11,26 +11,28 @@ margin-bottom:0px;
 }
 
 #navigation {
-    background: none repeat scroll 0% 0% #778899;
-    height: 45px;
-    position: fixed;
-    z-index: 999999;
+	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg");
+    height: 170px;
     width: 100%;
-	border-bottom: 1px solid #778899;
-	opacity: 0.95;
-	 -moz-opacity: 0.95;
-	 -webkit-opacity: 0.95;
-    filter: alpha(opacity=95); /* For IE8 and earlier */
+	border-bottom: 1px solid #000;
 }
 
 #navigation .container {
     position: relative;
 }
 
+#navigation-wrapper {
+padding-top:100px;
+}
+
+.content-container {
+padding-top:20px;
+}
+
 .site{
 	width:70%;
-	padding:0 0;
-	    margin: 0 auto;
+	padding:10 0;
+	margin: 0 auto;
 	max-width:1280px;
 }
 
@@ -72,7 +74,7 @@ margin-bottom:0px;
     font-size: 11px;
     font-weight: 400;
     letter-spacing: 1.5px;
-    color: #333;
+    color: #FFF;
     line-height: 45px;
     text-transform: uppercase;
     display: inline-block;
@@ -80,7 +82,7 @@ margin-bottom:0px;
 }
 
 .menu-right li a{
-color:#fff38f;
+color:#FFF;
 }
 /* PHOTO SLIDER
 */
@@ -133,14 +135,16 @@ transition: .5s bottom;
 
 figure.slider img { 
 width: 100%; 
-height: 600px; 
+
 }
 
-
 div#captioned-gallery { 
-width: 100%; 
+width: 70%; 
 overflow: hidden; 
-max-height:600px;
+}
+
+div#captioned-gallery, figure.slider img {
+height:450px;
 }
 
 figure { 
@@ -210,10 +214,6 @@ transition: all 0.3s ease 0s;
 	color: #CEA525;
 }
 
-.content-container{
-padding-top:45px;
-}
-
 .gallery li, .gallery article {
     padding: 0px;
     display: inline-block;
@@ -221,33 +221,6 @@ padding-top:45px;
     float: left;
 	background: none repeat scroll 0% 0% #FFF;
 	}
-/*
-.gallery li:nth-child(5n), .gallery article:nth-child(5n) {
-    margin-right: 0px;
-}
-.gallery li, .gallery article {
-    padding: 0px;
-    display: inline-block;
-    position: relative;
-    float: left;
-    width: 19%;
-    margin: 0px 1.25% 1.25% 0px;
-    background: none repeat scroll 0% 0% #FFF;
-}
-
-.gallery li:nth-child(5n+0),.gallery article:nth-child(5n+0){
-	margin-right:0;
-}
-
-.gallery li:nth-child(5n+1),.gallery article:nth-child(5n+1){
-	clear:left;
-}
-
-*/
-
-/*INTRO TEXT
-*/
-
 
 .lead-intro {
 text-align: center;
