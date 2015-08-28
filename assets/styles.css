@@ -5,10 +5,6 @@ a {
 color:#1a76ff;
 }
 
-body {
-background-color: #F1F2F2;
-}
-
 .gallery h1, .gallery h2, .gallery h3 {
 margin-top:0px;
 margin-bottom:0px;
@@ -16,9 +12,9 @@ margin-bottom:0px;
 
 #navigation {
 	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
-    height: 170px;
+    height: 245px;
     width: 100%;
-	border-bottom: 1px solid #000;
+	border-bottom: 5px solid #000;
 }
 
 #navigation .container {
@@ -29,9 +25,8 @@ margin-bottom:0px;
 padding-top:100px;
 }
 
-.content-container {
+.content-container{
 padding:12px;
-background-color: #FFF;
 }
 
 .site{
@@ -894,16 +889,6 @@ h2.widget-title,h3.widget-title{
 	vertical-align:middle;
 }
 
-.assistive-text{
-	display:none;
-}
-
-#nav-below{
-	width:100%;
-	float:left;
-	margin:1em 0 2em 0;
-}
-
 nav .nav-previous{
 	float:left;
 }
@@ -921,7 +906,3 @@ nav .nav-next{
 	width:100%;
 }
 
-.page-header{
-	border:0;
-	margin-top:0;
-}
