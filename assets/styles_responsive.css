@@ -1,19 +1,19 @@
 
 @media screen and (min-width: 1104px) {
-.gallery li:nth-child(5n), .gallery article:nth-child(5n) {
+.gallery li:nth-child(5n), .gallery .entry-block:nth-child(5n) {
     margin-right: 0px;
 }
-.gallery li, .gallery article {
+.gallery li, .gallery .entry-block {
     width: 19%;
     margin: 0px 1.25% 1.25% 0px;
 
 }
 
-.gallery li:nth-child(5n+0),.gallery article:nth-child(5n+0){
+.gallery li:nth-child(5n+0),.gallery .entry-block:nth-child(5n+0){
 	margin-right:0;
 }
 
-.gallery li:nth-child(5n+1),.gallery article:nth-child(5n+1){
+.gallery li:nth-child(5n+1),.gallery .entry-block:nth-child(5n+1){
 	clear:left;
 }
 
@@ -28,14 +28,14 @@ height:375px;
 display:none;
 }
 
-	.gallery li:nth-child(4n+0),.gallery article:nth-child(4n+0){
+	.gallery li:nth-child(4n+0),.gallery .entry-block:nth-child(4n+0){
 	margin-right:0;
 	}
 
-.	gallery li:nth-child(4n+1),.gallery article:nth-child(4n+1){
+.	gallery li:nth-child(4n+1),.gallery .entry-block:nth-child(4n+1){
 	clear:left;
 	}
-	.gallery li,.gallery article{
+	.gallery li,.gallery .entry-block{
 	width:24%;
 	margin:0 1.33% 1.33% 0;
 }
@@ -76,14 +76,14 @@ width: 100%;
 		display:none;
 	}
 	
-	.gallery li:nth-child(3n+0),.gallery article:nth-child(3n+0){
+	.gallery li:nth-child(3n+0),.gallery .entry-block:nth-child(3n+0){
 	margin-right:0;
 	}
 
-.	gallery li:nth-child(3n+1),.gallery article:nth-child(3n+1){
+.	gallery li:nth-child(3n+1),.gallery .entry-block:nth-child(3n+1){
 	clear:left;
 	}
-	.gallery li,.gallery article{
+	.gallery li,.gallery .entry-block{
 	width:32.5%;
 	margin:0 1.25% 1.25% 0;
 }
@@ -116,7 +116,7 @@ width: 100%;
 		height:auto!important;
 	}
 
-	.gallery li,.gallery article{
+	.gallery li,.gallery .entry-block{
 		display:block;
 		position:relative;
 		width:100%;
