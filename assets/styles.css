@@ -105,8 +105,8 @@ color:#FFF;
 28% { left: 0%; }
 33% { left: -100.05%; }
 61% { left: -100.05%; }
-66% { left: -200.15%; }
-95% { left: -200.15%; }
+66% { left: -200.25%; }
+95% { left: -200.25%; }
 100% { left: -300.15%; }
 }
 @-webkit-keyframes slidy {
@@ -114,8 +114,8 @@ color:#FFF;
 28% { left: 0%; }
 33% { left: -100.05%; }
 61% { left: -100.05%; }
-66% { left: -200.15%; }
-95% { left: -200.15%; }
+66% { left: -200.25%; }
+95% { left: -200.25%; }
 100% { left: -300.15%; }
 }
 @-moz-keyframes slidy {
@@ -123,8 +123,8 @@ color:#FFF;
 28% { left: 0%; }
 33% { left: -100.05%; }
 61% { left: -100.05%; }
-66% { left: -200.15%; }
-95% { left: -200.15%; }
+66% { left: -200.25%; }
+95% { left: -200.25%; }
 100% { left: -300.15%; }
 }
 
@@ -133,29 +133,29 @@ color:#FFF;
 @keyframes slidy-caption {
 0% { top: 0%; }
 28% { top: 0%; }
-33% { top: -100.05%; }
-61% { top: -100.05%; }
-66% { top: -200.15%; }
-95% { top: -200.15%; }
-100% { top: -300.15%; }
+33% { top: -100.09%; }
+61% { top: -100.09%; }
+66% { top: -200.0%; }
+95% { top: -200.0%; }
+100% { top: -300.09%; }
 }
 @-webkit-keyframes slidy-caption {
 0% { top: 0%; }
 28% { top: 0%; }
-33% { top: -100.05%; }
-61% { top: -100.05%; }
-66% { top: -200.15%; }
-95% { top: -200.15%; }
-100% { top: -300.15%; }
+33% { top: -100.09%; }
+61% { top: -100.09%; }
+66% { top: -200.0%; }
+95% { top: -200.0%; }
+100% { top: -300.09%; }
 }
 @-moz-keyframes slidy-caption {
 0% { top: 0%; }
 28% { top: 0%; }
-33% { top: -100.05%; }
-61% { top: -100.05%; }
-66% { top: -200.15%; }
-95% { top: -200.15%; }
-100% { top: -300.15%; }
+33% { top: -100.09%; }
+61% { top: -100.09%; }
+66% { top: -200.0%; }
+95% { top: -200.0%; }
+100% { top: -300.09%; }
 }
 
 figure.slider img { 
@@ -179,6 +179,16 @@ width: 100%;
 height:60px;
 overflow: hidden; 
 border-top: 1px solid #F1F2F2;
+}
+
+figure.slider figure figcaption {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	width: 100%;
+	font-size: 2rem;
+	padding: .6rem;
 }
 
 div#captioned-gallery-companion {
@@ -227,6 +237,7 @@ width: 20%;
 height: auto;
 display: inline-block;
 position: inherit;
+margin-left:-1px;
 }
 
 
