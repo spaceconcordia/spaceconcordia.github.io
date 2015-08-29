@@ -1,7 +1,7 @@
 /*HEADER MENU
 */
 body {
-background-color: #F1F2F2;
+background-color: #E8EAFF;
 }
 a {
 color:#1a76ff;
@@ -28,7 +28,7 @@ padding-top:165px;
 
 .content-container{
 padding:12px;
-background-color:#FFF;
+background-color:#F1F2F2;
 }
 
 .site{
@@ -168,20 +168,27 @@ width: 100%;
 figure.slider-caption p { 
 height:59px;
 overflow:hidden;
-border-bottom:2px solid #F1F2F2;
+border-bottom:2px solid #E8EAFF;
 }
 
 div#captioned-gallery { 
 width: 68%; 
 overflow: hidden; 
-border: 1px solid #F1F2F2;
+border: 1px solid #E8EAFF;
+}
+
+figure.slider figure:hover { 
+	opacity: 0.55;
+	-moz-opacity: 0.55;
+	-webkit-opacity: 0.55;
+    filter: alpha(opacity=55); /* For IE8 and earlier */
 }
 
 div#captioned-gallery-caption { 
 width: 100%; 
 height:60px;
 overflow: hidden; 
-border-top: 1px solid #F1F2F2;
+border-top: 1px solid #E8EAFF;
 }
 
 figure.slider figure figcaption {
@@ -197,7 +204,7 @@ figure.slider figure figcaption {
 div#captioned-gallery-companion {
 float:right; width:30%;
 padding-left:10px;
-border-left: 2px solid #F1F2F2;
+border-left: 2px solid #E8EAFF;
 overflow:hidden;
 }
 
@@ -206,7 +213,7 @@ text-align:center;
 font-size:15px; 
 line-height:25px;
 padding-bottom:10px;
-border-bottom: 1px solid #F1F2F2;
+border-bottom: 1px solid #E8EAFF;
 }
 
 #captioned-gallery-companion p {
@@ -253,7 +260,7 @@ min-height:60px;
 }
 
 .gallery {
-border-top: 3px solid #F1F2F2;
+border-top: 3px solid #E8EAFF;
 padding-top:10px;
 }
 
