@@ -62,26 +62,28 @@ background-color:#FFF;
     position: relative;
 }
 
+.menu a{
+	letter-spacing: 0.5px;
+}
+
 #menu-last {
     margin-right: 0px;
 }
 
 #concordia-title a {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
 	letter-spacing: 2px;
-	
 }
 
 .menu li a,.menu-left li a {
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+    font-size: 20px;
     color: #FFF;
     line-height: 45px;
     text-transform: uppercase;
     display: inline-block;
     transition: all 0.3s ease 0s;
+	letter-spacing:0px;
 }
 
 .menu-right li a{
@@ -98,6 +100,7 @@ color:#FFF;
 	-webkit-opacity: 0.55;
     filter: alpha(opacity=55); /* For IE8 and earlier */
 }
+
 /* PHOTO SLIDER
 */
 @keyframes slidy {
@@ -195,6 +198,7 @@ div#captioned-gallery-companion {
 float:right; width:30%;
 padding-left:10px;
 border-left: 2px solid #F1F2F2;
+overflow:hidden;
 }
 
 div#captioned-gallery-companion #title {
@@ -258,6 +262,17 @@ padding-top:15px;
 }
 .entry-image h3{
  text-align: center;
+}
+
+.entry-image-background{
+    background-color: #081929;
+}
+
+.entry-image img:hover{
+	opacity: 0.55;
+	-moz-opacity: 0.55;
+	-webkit-opacity: 0.55;
+    filter: alpha(opacity=55); /* For IE8 and earlier */
 }
 
 .entry-image-text-container {
