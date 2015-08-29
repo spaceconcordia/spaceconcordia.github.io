@@ -23,7 +23,7 @@ margin-bottom:0px;
 }
 
 #navigation-wrapper {
-padding-top:175px;
+padding-top:165px;
 }
 
 .content-container{
@@ -58,7 +58,7 @@ background-color:#FFF;
 
 .menu li,.menu-left li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     position: relative;
 }
 
@@ -70,6 +70,7 @@ background-color:#FFF;
     font-size: 24px;
     font-weight: 400;
 	letter-spacing: 2px;
+	
 }
 
 .menu li a,.menu-left li a {
@@ -88,9 +89,10 @@ color:#FFF;
 }
 
 .menu-bottom {
-    background: none repeat scroll 0% 0% #778899;
-    height: 5px;
-	margin-top:90px;
+    background: none repeat scroll 0% 0% #081929;
+    height: 30px;
+	width:100%;
+	margin-top:50px;
 	opacity: 0.55;
 	-moz-opacity: 0.55;
 	-webkit-opacity: 0.55;
@@ -344,9 +346,6 @@ body{
 	min-height: 180px;
 }
 
-.site-header h1,.site-header h2,.site-header .btn{
-	margin-bottom:10px;
-}
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
 	border:0;
@@ -413,12 +412,6 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom:0.8em;
 }
 
-hr{
-	background-color:#ccc;
-	border:0;
-	height:1px;
-	margin-bottom:1.5em;
-}
 
 p{
 	margin-bottom:1.5em;
@@ -441,40 +434,9 @@ li>ul,li>ol{
 	margin-left:1.5em;
 }
 
-dt{
-	font-weight:bold;
-}
-
-dd{
-	margin:0 1.5em 1.5em;
-}
-
-b,strong{
-	font-weight:bold;
-}
-
-dfn,cite,em,i{
-	font-style:italic;
-}
-
-sup{
-	bottom:1ex;
-}
-
-sub{
-	top:.5ex;
-}
-
-small{
-	font-size:75%;
-}
-
-big{
-	font-size:125%;
-}
-
 figure{
-	margin:0;
+	margin:0px;
+	padding:0px;
 }
 
 img{
@@ -494,36 +456,6 @@ a:hover,a:focus,a:active{
 ul.subpage{
 	list-style:none;
 	margin:0 0 1em 0;
-}
-
-ul.subpage li{
-	display:inline;
-	margin-right:1em;
-}
-
-.menu-toggle{
-	cursor:pointer;
-	display:none;
-}
-
-.sticky{
-}
-
-.byline,.updated{
-	display:none;
-}
-
-.single .byline,.group-blog .byline{
-	display:inline;
-}
-
-.page-content,.entry-content,.entry-summary{
-	margin:1.5em 0 0;
-}
-
-.page-links{
-	clear:both;
-	margin:0 0 1.5em;
 }
 
 .page-content img.wp-smiley,.entry-content img.wp-smiley,.comment-content img.wp-smiley{
