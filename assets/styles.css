@@ -66,11 +66,16 @@ background-color:#F1F2F2;
 	letter-spacing: 0.5px;
 }
 
+.menu a:hover {
+	color:#000;
+}
+
 #menu-last {
     margin-right: 0px;
 }
 
 #concordia-title a {
+	margin:0px;
     font-size: 28px;
     font-weight: 400;
 	letter-spacing: 2px;
@@ -99,6 +104,48 @@ color:#FFF;
 	-moz-opacity: 0.55;
 	-webkit-opacity: 0.55;
     filter: alpha(opacity=55); /* For IE8 and earlier */
+}
+
+.menu li:hover > ul
+{
+	display:block
+}
+.menu ul
+{
+	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	padding:0;
+	z-index: 9999;
+	background-color:#FFF;
+	/*
+	opacity: 0.80;
+	-moz-opacity: 0.80;
+	-webkit-opacity: 0.80;
+    filter: alpha(opacity=80); /* For IE8 and earlier */	
+	*/
+}
+
+.menu ul li
+{
+	float:none;
+	width:200px;
+	z-index: 9999;	
+}
+
+.menu ul li a
+{
+	float:left;
+	line-height:120%;
+	padding:10px 15px;
+	z-index: 9999;	
+}
+
+.menu ul li:hover
+{
+	background:#f6f6f6
 }
 
 /* PHOTO SLIDER
