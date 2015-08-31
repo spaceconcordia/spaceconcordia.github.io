@@ -341,6 +341,17 @@ height:40px;
 width:auto;
 
 }
+
+.parallax {
+box-shadow: 0px 0px 1em #111 inset;
+background: url("http://spaceconcordia.github.io/assets/images/banner.jpg");
+position: relative;
+height: 50vh;
+text-indent: -9999px;
+background-attachment: fixed;
+background-position: center top;
+background-size: cover;
+}
 /*
 SPONSERS
 */
