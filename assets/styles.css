@@ -7,6 +7,18 @@ a {
 color:#1a76ff;
 }
 
+a:focus{
+	outline:thin dotted;
+}
+
+a:hover,a:active{
+	outline:0;
+}
+
+a img{
+	border:0;
+}
+
 .gallery h1, .gallery h2, .gallery h3 {
 margin-top:0px;
 margin-bottom:0px;
@@ -27,7 +39,6 @@ padding-top:165px;
 }
 
 .content-container{
-padding:12px;
 background-color:#F1F2F2;
 }
 
@@ -148,6 +159,10 @@ color:#FFF;
 	background:#f6f6f6
 }
 
+#front-page-gallery {
+margin-top: 10px;
+margin-bottom: 10px;
+}
 /* PHOTO SLIDER
 */
 @keyframes slidy {
@@ -339,19 +354,58 @@ padding-top:15px;
 .social-media-icons a img{
 height:40px;
 width:auto;
-
 }
 
-.parallax {
-box-shadow: 0px 0px 1em #111 inset;
+.parallax-container{
+height:150px;
+
+}
+div.parallax {
 background: url("http://spaceconcordia.github.io/assets/images/parallax.jpg");
 position: relative;
-height: 400px;
-text-indent: -9999px;
+height: inherit;
 background-attachment: fixed;
 background-position: center top;
 background-size: cover;
 }
+
+.parallax-cover {
+    background: none repeat scroll 0% 0% #081929;
+	opacity: 0.55;
+	-moz-opacity: 0.55;
+	-webkit-opacity: 0.55;
+    filter: alpha(opacity=55); /* For IE8 and earlier */
+	height:inherit;
+}
+
+.block-parallax {
+position:absolute;
+top:10px;
+min-height: 70%;
+width:inherit;
+text-align:center;
+}
+
+.gallery-parallax li:nth-child(3n+0), .gallery-parallax .entry-block:nth-child(3n+0){
+		margin-right:0;
+	}
+.gallery-parallax li:nth-child(3n+1),.gallery-parallax .entry-block:nth-child(3n+1){
+		clear:left;
+	}
+.gallery-parallax li,.gallery-parallax .entry-block{
+		width:32.5%;
+		margin:0 1.25% 1.25% 0;
+	}
+	
+.gallery-parallax figure {
+height:inherit;
+}
+
+.gallery-parallax a {
+font-size: 24px;
+color: #FFF;
+}
+
 /*
 SPONSERS
 */
@@ -426,12 +480,6 @@ a {
 	outline: 0;
 }
 
-.site-header a:hover{
-	color:rgba(255,255,255,1);
-	text-decoration: none;
-	outline: 0;
-}
-
 body{
 	color:#fff;
 	color:rgba(255,255,255,0.9);
@@ -486,17 +534,6 @@ caption,th,td{
 	text-align:left;
 }
 
-a:focus{
-	outline:thin dotted;
-}
-
-a:hover,a:active{
-	outline:0;
-}
-
-a img{
-	border:0;
-}
 
 body,button,input,select,textarea{
 	color:#404040;
