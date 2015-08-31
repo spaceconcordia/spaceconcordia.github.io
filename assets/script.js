@@ -1,12 +1,25 @@
-$(window).resize(function() {
-	//get width
-	//get height of 
-	
-	$('.theClassName').css('display', 'inline')
-}
-);
+$(
+	function() {
 
-//submenu
-$( "#outer" ).mouseleave(function() {
-  $( "#log" ).append( "<div>Handler for .mouseleave() called.</div>" );
-});
+	var width_height_ratio = 1.6;
+	var width = $('#captioned-gallery').width();	
+	var height = width / width_height_ratio;
+	
+	$('#captioned-gallery').css('height', height + 'px');
+	$('#captioned-gallery-companion').css('height', height + 'px');
+	$('.slider-image').css('height', height + 'px');		
+	}
+)
+
+$(window).resize(
+	function() {
+
+	var width_height_ratio = 1.6;
+	var width = $('#captioned-gallery').width();	
+	var height = width / width_height_ratio;
+	
+	$('#captioned-gallery').css('height', height + 'px');
+	$('#captioned-gallery-companion').css('height', height + 'px');
+	$('.slider-image').css('height', height + 'px');	
+	}
+);
