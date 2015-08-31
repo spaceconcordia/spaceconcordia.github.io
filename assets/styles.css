@@ -334,6 +334,13 @@ padding-top:15px;
 	min-height:55px;
 	 text-align: center;
 }
+
+
+.social-media-icons a img{
+height:40px;
+width:auto;
+
+}
 /*
 SPONSERS
 */
