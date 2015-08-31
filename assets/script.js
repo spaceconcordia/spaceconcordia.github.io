@@ -8,7 +8,7 @@ $(	function() {
 	$('#captioned-gallery-companion').css('height', height + 'px');
 	$('.slider-image').css('height', height + 'px');	
 
-	$('#front-page-gallery').css('min-height', height + 'px');	
+	$('#front-page-gallery').css('min-height', (height+5) + 'px');	
 
 	}
 )
@@ -22,7 +22,7 @@ $(window).resize(
 	
 	$('#captioned-gallery').css('height', height + 'px');
 	$('#captioned-gallery-companion').css('height', height + 'px');
-	$('#front-page-gallery').css('min-height', height + 'px');	
+	$('#front-page-gallery').css('min-height', (height+5) + 'px');	
 	}
 );
 

@@ -160,8 +160,9 @@ color:#FFF;
 }
 
 #front-page-gallery {
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 5px;
 }
 /* PHOTO SLIDER
 */
@@ -264,7 +265,7 @@ figure.slider figure figcaption {
 }
 
 div#captioned-gallery-companion {
-float:right; width:30%;
+float:right; width:31%;
 padding-left:10px;
 border-left: 2px solid #E8EAFF;
 overflow:hidden;
@@ -329,6 +330,11 @@ padding-top:10px;
 .entry-image {
 padding-top:15px;
 }
+
+.entry-image p{
+color:#FFF;
+font-size:16px;
+}
 .entry-image h3{
  text-align: center;
 }
@@ -357,7 +363,7 @@ width:auto;
 }
 
 .parallax-container{
-height:100px;
+height:200px;
 
 }
 div.parallax {
