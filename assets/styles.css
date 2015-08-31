@@ -357,7 +357,7 @@ width:auto;
 }
 
 .parallax-container{
-height:150px;
+height:100px;
 
 }
 div.parallax {
@@ -370,12 +370,6 @@ background-size: cover;
 }
 
 .parallax-cover {
-    background: none repeat scroll 0% 0% #081929;
-	opacity: 0.55;
-	-moz-opacity: 0.55;
-	-webkit-opacity: 0.55;
-    filter: alpha(opacity=55); /* For IE8 and earlier */
-	height:inherit;
 }
 
 .block-parallax {
