@@ -24,6 +24,10 @@ margin-top:0px;
 margin-bottom:0px;
 }
 
+#division-icons, #social-media-icons{
+padding:5px;
+}
+
 #navigation {
 	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
     height: 245px;
@@ -139,6 +143,8 @@ color:#FFF;
 	*/
 }
 
+.block :after { content: " ";} 
+
 .menu ul li
 {
 	float:none;
@@ -161,7 +167,6 @@ color:#FFF;
 
 #front-page-gallery {
 margin-top: 5px;
-margin-bottom: 5px;
 padding: 5px;
 }
 /* PHOTO SLIDER
@@ -465,20 +470,6 @@ a {
 	position:relative;
 }
 
-.main-navigation,#up{
-	background-color:rgba(0,0,0,.2);
-}
-
-.scrolling,.scrolling ul ul{
-	background-color:#000;
-}
-
-
-.site-header a,.site-header a:visited{
-	color:rgba(255,255,255,0.9);
-	text-decoration: none;
-	outline: 0;
-}
 
 body{
 	color:#fff;
