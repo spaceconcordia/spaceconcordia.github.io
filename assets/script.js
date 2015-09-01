@@ -5,7 +5,7 @@ $(	function() {
 	var height = width / width_height_ratio;
 	
 	$('#captioned-gallery').css('height', height + 'px');
-	$('#captioned-gallery-companion').css('height', height + 'px');
+	//$('#captioned-gallery-companion').css('height', height + 'px');
 	$('.slider-image').css('height', height + 'px');	
 
 	$('#front-page-gallery').css('min-height', (height+10) + 'px');	
@@ -21,7 +21,7 @@ $(window).resize(
 	var height = width / width_height_ratio;
 	
 	$('#captioned-gallery').css('height', height + 'px');
-	$('#captioned-gallery-companion').css('height', height + 'px');
+	//$('#captioned-gallery-companion').css('height', height + 'px');
 	$('#front-page-gallery').css('min-height', (height+10) + 'px');	
 	}
 );
