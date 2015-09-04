@@ -106,6 +106,14 @@ background-color:#F1F2F2;
 	letter-spacing:0px;
 }
 
+#form {
+border-top: 3px solid #E8EAFF;
+}
+
+#division-icons {
+border-top: 3px solid #E8EAFF;
+}
+
 .menu-right li a{
 color:#FFF;
 }
@@ -143,7 +151,9 @@ color:#FFF;
 	*/
 }
 
-.block :after { content: " "; } 
+.block :after { 
+content: " "; 
+} 
 
 .menu ul li
 {
@@ -458,6 +468,11 @@ transition: all 0.3s ease 0s;
     float: left;
 	background: none repeat scroll 0% 0% #FFF;
 	}
+	
+	
+.social-media a{
+float:left;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
     display: block;
@@ -485,9 +500,25 @@ body{
 	padding:10px 0;
 	display:block;
 	clear:both;
-	min-height: 180px;
 }
 
+.gallery :after { 
+content: " "; 
+clear: both; 
+display: block;
+}
+
+#division-icons :after { 
+content: " "; 
+clear: both; 
+display: block;
+}
+
+#front-page-gallery :after {
+content: " "; 
+clear: both; 
+display: block; 
+}
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
 	border:0;
