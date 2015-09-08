@@ -523,6 +523,9 @@ body{
 	display: block;
 }
 
+.content-area {
+padding: 10px;
+}
 #front-page-gallery :after {
 	content: " "; 
 	clear: both; 
