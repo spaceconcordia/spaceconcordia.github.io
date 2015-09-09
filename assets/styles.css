@@ -3,6 +3,13 @@
 body {
 background-color: #E8EAFF;
 }
+
+#frosh-block :after {
+	content: " "; 
+	clear: both; 
+	display: block; 
+}
+
 a {
 color:#1a76ff;
 }
@@ -528,11 +535,13 @@ body{
 .content-area {
 padding: 10px;
 }
+
 #front-page-gallery :after {
 	content: " "; 
 	clear: both; 
 	display: block; 
 }
+
 
 #member-block :after {
 	content: " "; 
