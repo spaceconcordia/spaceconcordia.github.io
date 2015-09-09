@@ -32,6 +32,8 @@ padding:5px;
 	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
     height: 245px;
     width: 100%;
+	font-family: "Economica",Arial,sans-serif;
+    font-size: 16px;
 }
 
 #navigation .container {
@@ -544,6 +546,10 @@ padding: 10px;
 	display: block; 
 }
 
+body {
+  font-family: Sans-Serif;
+}
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
 	border:0;
 	font-family:inherit;
@@ -554,8 +560,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding:0;
 	vertical-align:baseline;
 	outline: 0;
-	font-family: "Economica",Arial,sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
 }
