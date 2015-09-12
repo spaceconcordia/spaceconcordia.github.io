@@ -264,7 +264,7 @@ border-bottom:2px solid #E8EAFF;
 }
 
 div#captioned-gallery { 
-width: 68%; 
+width: 100%; 
 overflow: hidden; 
 border: 1px solid #E8EAFF;
 }
