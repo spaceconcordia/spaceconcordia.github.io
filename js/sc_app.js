@@ -1,5 +1,6 @@
 var SCApp = angular.module('SCApp', [
 	'ngRoute',
 	'ngAnimate', 
-	'ngTouch'
+	'ngTouch',
+	'angular-loading-bar'
 ]);

@@ -1,0 +1,740 @@
+/*HEADER MENU
+*/
+body {
+background-color: #E8EAFF;
+}
+
+#frosh-block :after {
+	content: " "; 
+	clear: both; 
+	display: block; 
+}
+
+a {
+color:#1a76ff;
+}
+
+a:focus{
+	outline:thin dotted;
+}
+
+a:hover,a:active{
+	outline:0;
+}
+
+a img{
+	border:0;
+}
+
+.gallery h1, .gallery h2, .gallery h3 {
+margin-top:0px;
+margin-bottom:0px;
+}
+
+#division-icons, #social-media-icons{
+padding:5px;
+}
+
+#navigation {
+	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
+    height: 245px;
+    width: 100%;
+	font-family: "Economica",Arial,sans-serif;
+    font-size: 16px;
+}
+
+#navigation .container {
+    position: relative;
+}
+
+#navigation-wrapper {
+padding-top:165px;
+}
+
+.content-container{
+background-color:#F1F2F2;
+}
+
+.site{
+	width:60%;
+	padding:10 0;
+	padding:10 0;
+	margin: 0 auto;
+	max-width:1280px;
+}
+
+.menu {
+    margin: 0px auto;
+	list-style: outside none none;
+}
+
+.menu-left {
+    float: left;
+    margin: 0px auto;
+	list-style: outside none none;
+}
+
+.menu-right {
+    float: right;
+    margin: 0px auto;
+	list-style: outside none none;
+}
+
+.menu li,.menu-left li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+.menu a{
+	letter-spacing: 0.5px;
+}
+
+.menu a:hover {
+	color:#000;
+}
+
+#menu-last {
+    margin-right: 0px;
+}
+
+#concordia-title a {
+	margin:0px;
+    font-size: 28px;
+    font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.menu li a,.menu-left li a {
+    font-size: 20px;
+    color: #FFF;
+    line-height: 45px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+	letter-spacing:0px;
+}
+
+.frosh section, .divisions section{
+border-top: 3px solid #E8EAFF;
+}
+
+
+#form {
+border-top: 3px solid #E8EAFF;
+}
+
+#division-icons {
+border-top: 3px solid #E8EAFF;
+}
+
+.menu-right li a{
+color:#FFF;
+}
+
+.menu-bottom {
+    background: none repeat scroll 0% 0% #081929;
+    height: 30px;
+	width:100%;
+	margin-top:50px;
+	opacity: 0.55;
+	-moz-opacity: 0.55;
+	-webkit-opacity: 0.55;
+    filter: alpha(opacity=55); /* For IE8 and earlier */
+}
+
+.menu li:hover > ul
+{
+	display:block
+}
+.menu ul
+{
+	background: url("http://spaceconcordia.github.io/assets/images/banner.jpg") no-repeat scroll 0px center / cover;
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	padding:0;
+	z-index: 9999;
+	background-color:#FFF;
+	/*
+	opacity: 0.80;
+	-moz-opacity: 0.80;
+	-webkit-opacity: 0.80;
+    filter: alpha(opacity=80); /* For IE8 and earlier */	
+	*/
+}
+
+.block :after { 
+content: " "; 
+} 
+
+.menu ul li
+{
+	float:none;
+	width:200px;
+	z-index: 9999;	
+}
+
+.menu ul li a
+{
+	float:left;
+	line-height:120%;
+	padding:10px 15px;
+	z-index: 9999;	
+}
+
+.menu ul li:hover
+{
+	background:#f6f6f6
+}
+
+#front-page-gallery {
+margin-top: 5px;
+padding: 5px;
+}
+/* PHOTO SLIDER
+*/
+@keyframes slidy {
+0% { left: 0%; }
+28% { left: 0%; }
+33% { left: -100.05%; }
+61% { left: -100.05%; }
+66% { left: -200.25%; }
+95% { left: -200.25%; }
+100% { left: -300.15%; }
+}
+@-webkit-keyframes slidy {
+0% { left: 0%; }
+28% { left: 0%; }
+33% { left: -100.05%; }
+61% { left: -100.05%; }
+66% { left: -200.25%; }
+95% { left: -200.25%; }
+100% { left: -300.15%; }
+}
+@-moz-keyframes slidy {
+0% { left: 0%; }
+28% { left: 0%; }
+33% { left: -100.05%; }
+61% { left: -100.05%; }
+66% { left: -200.25%; }
+95% { left: -200.25%; }
+100% { left: -300.15%; }
+}
+
+/* CAPTION
+*/
+@keyframes slidy-caption {
+0% { top: 0%; }
+28% { top: 0%; }
+33% { top: -100.09%; }
+61% { top: -100.09%; }
+66% { top: -200.0%; }
+95% { top: -200.0%; }
+100% { top: -300.09%; }
+}
+@-webkit-keyframes slidy-caption {
+0% { top: 0%; }
+28% { top: 0%; }
+33% { top: -100.09%; }
+61% { top: -100.09%; }
+66% { top: -200.0%; }
+95% { top: -200.0%; }
+100% { top: -300.09%; }
+}
+@-moz-keyframes slidy-caption {
+0% { top: 0%; }
+28% { top: 0%; }
+33% { top: -100.09%; }
+61% { top: -100.09%; }
+66% { top: -200.0%; }
+95% { top: -200.0%; }
+100% { top: -300.09%; }
+}
+
+figure.slider img { 
+width: 100%; 
+}
+
+figure.slider-caption p { 
+height:59px;
+overflow:hidden;
+border-bottom:2px solid #E8EAFF;
+}
+
+div#captioned-gallery { 
+width: 100%; 
+overflow: hidden; 
+border: 1px solid #E8EAFF;
+}
+
+figure.slider figure:hover { 
+	opacity: 0.55;
+	-moz-opacity: 0.55;
+	-webkit-opacity: 0.55;
+    filter: alpha(opacity=55); /* For IE8 and earlier */
+}
+
+div#captioned-gallery-caption { 
+width: 100%; 
+height:60px;
+overflow: hidden; 
+border-top: 1px solid #E8EAFF;
+}
+
+figure.slider figure figcaption {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	width: 100%;
+	font-size: 2rem;
+	padding: .6rem;
+}
+
+div#captioned-gallery-companion {
+float:right; width:31%;
+padding-left:10px;
+border-left: 2px solid #E8EAFF;
+overflow:hidden;
+}
+
+div#captioned-gallery-companion #title {
+text-align:center; 
+font-size:15px; 
+line-height:25px;
+padding-bottom:10px;
+border-bottom: 1px solid #E8EAFF;
+}
+
+#captioned-gallery-companion p {
+padding-top:10px;
+margin:0px;
+}
+
+figure { 
+margin: 0; 
+}
+
+figure.slider {
+position: relative; 
+width: 500%;
+font-size: 0; 
+animation: 20s slidy infinite;
+-webkit-animation: 20s slidy infinite;
+-moz-animation: 20s slidy infinite;
+}
+
+figure.slider-caption {
+position: relative; 
+width: 100%;
+max-height:60px;
+animation: 20s slidy-caption infinite;
+-webkit-animation: 20s slidy-caption infinite;
+-moz-animation: 20s slidy-caption infinite;
+}
+
+figure.slider figure {
+width: 20%; 
+height: auto;
+display: inline-block;
+position: inherit;
+margin-left:-1px;
+}
+
+
+#divisions-gallery li:nth-child(3n+0), #divisions-gallery .entry-block:nth-child(3n+0){
+		margin-right:0;
+}
+	
+#divisions-gallery li:nth-child(3n+1), #divisions-gallery .entry-block:nth-child(3n+1){
+		clear:left;
+	}
+#divisions-gallery li, #divisions-gallery .entry-block{
+		width:25%;
+		margin:0 12.5% 12.5% 0;
+}
+
+
+/* 5 image section front page
+*/
+.entry-block {
+float:left;
+min-height:60px;
+}
+
+.gallery {
+border-top: 3px solid #E8EAFF;
+padding-top:10px;
+}
+
+.entry-image {
+padding-top:15px;
+}
+
+.entry-image p{
+color:#FFF;
+font-size:16px;
+}
+.entry-image h3{
+ text-align: center;
+}
+
+.entry-image-background{
+    background-color: #081929;
+}
+
+.entry-image img:hover{
+	opacity: 0.55;
+	-moz-opacity: 0.55;
+	-webkit-opacity: 0.55;
+    filter: alpha(opacity=55); /* For IE8 and earlier */
+}
+
+.entry-image-text-container {
+	padding-top:15px;
+	min-height:55px;
+	 text-align: center;
+}
+
+
+.social-media-icons a img{
+height:40px;
+width:auto;
+}
+
+.parallax-container{
+height:200px;
+
+}
+.mc-embedded-subscribe-form {
+background: url("http://spaceconcordia.github.io/assets/images/parallax.jpg");
+position: relative;
+height: inherit;
+background-attachment: fixed;
+background-position: center top;
+background-size: cover;
+}
+
+.parallax-cover {
+}
+
+.block-parallax {
+position:absolute;
+top:10px;
+min-height: 70%;
+width:inherit;
+text-align:center;
+}
+
+.gallery-parallax li:nth-child(3n+0), .gallery-parallax .entry-block:nth-child(3n+0){
+		margin-right:0;
+	}
+.gallery-parallax li:nth-child(3n+1),.gallery-parallax .entry-block:nth-child(3n+1){
+		clear:left;
+	}
+.gallery-parallax li,.gallery-parallax .entry-block{
+		width:32.5%;
+		margin:0 1.25% 1.25% 0;
+	}
+
+
+/*
+SPONSERS
+*/
+
+.title-header{ 
+width: 100%; 
+overflow: hidden; 
+max-height:100px;
+margin-bottom: 20px;
+padding-top: 25px;
+text-align: center;
+}
+
+.title-header h2 {
+margin: 0px;
+}
+
+.title-header h2 a {
+font-size: 20px;
+color: #000;
+letter-spacing: 4px;
+font-weight: 400;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+}
+.title-header span a{
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #CEA525;
+}
+
+.gallery li, .gallery article {
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    float: left;
+	background: none repeat scroll 0% 0% #FFF;
+	}
+	
+	
+.social-media a{
+float:left;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.member-block{
+	position:relative;
+}
+
+.sponser-block{
+	position:relative;
+}
+
+
+body{
+	color:#fff;
+	color:rgba(255,255,255,0.9);
+}
+
+.block{
+	padding:10px 0;
+	display:block;
+	clear:both;
+}
+
+.block :after{
+	content: " "; 
+}
+
+.gallery :after { 
+	content: " "; 
+	clear: both; 
+	display: block;
+}
+
+#division-icons :after { 
+	content: " "; 
+	clear: both; 
+	display: block;
+}
+
+.content-area {
+padding: 10px;
+}
+
+#front-page-gallery :after {
+	content: " "; 
+	clear: both; 
+	display: block; 
+}
+
+
+#member-block :after {
+	content: " "; 
+	clear: both; 
+	display: block; 
+}
+
+#sponsor-block :after {
+	content: " "; 
+	clear: both; 
+	display: block; 
+}
+
+body {
+  font-family: Sans-Serif;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+	border:0;
+	font-family:inherit;
+	font-style:inherit;
+	font-weight:inherit;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+	outline: 0;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+html{
+	font-size:62.5%;
+	overflow-y:scroll;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+
+article,aside,details,figcaption,figure,footer,header,main,nav,section{
+	display:block;
+}
+
+ol,ul{
+	list-style:none;
+}
+
+table{
+	border-collapse:separate;
+	border-spacing:0;
+}
+
+caption,th,td{
+	font-weight:normal;
+	text-align:left;
+}
+
+
+body,button,input,select,textarea{
+	color:#404040;
+	font-family:sans-serif;
+	font-size:16px;
+	line-height:1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+	clear:both;
+	margin-bottom:0.8em;
+}
+
+ul,ol{
+	margin:0 0 1.5em 3em;
+}
+
+ul{
+	list-style:disc;
+}
+
+ol{
+	list-style:decimal;
+}
+
+li>ul,li>ol{
+	margin-bottom:0;
+	margin-left:1.5em;
+}
+
+figure{
+	margin:0px;
+	padding:0px;
+}
+
+img{
+	height:auto;
+	max-width:100%;
+}
+
+a:hover,a:focus,a:active{
+	color:#DCDAF1;
+	text-decoration:none;	
+}
+
+.main-navigation .current_page_item a,.main-navigation .current-menu-item a{
+	color:#f23e2f;
+}
+
+ul.subpage{
+	list-style:none;
+	margin:0 0 1em 0;
+}
+
+.page-content img.wp-smiley,.entry-content img.wp-smiley,.comment-content img.wp-smiley{
+	border:none;
+	margin-bottom:0;
+	margin-top:0;
+	padding:0;
+}
+
+.site-main .gallery{
+	margin-bottom:1.5em;
+}
+
+.gallery-caption{
+}
+
+.slides .flex-caption{
+	width:100%;
+	text-align:center;
+	color:#eeeeee;
+	top:75%;
+}
+
+.site-main .gallery a img{
+	border:none;
+	height:auto;
+	max-width:100%;
+}
+
+.site-main .gallery dd{
+	margin:0;
+}
+
+.entry-image{
+	position:relative;
+}
+
+.gallery-item,.gallery-sm-item{
+	color:rgba(255,255,255,.5);
+	position:absolute;
+	bottom:0;
+	right:0;
+	padding:10px;
+	z-index:9;
+}
+
+.gallery-item .genericon,.gallery-sm-item .genericon,.gallery-blog-item .genericon{
+	font-size:26px;
+	width:26px;
+	height:26px;
+}
+
+.gallery-item:hover,.gallery-sm-item:hover,.gallery-blog-item:hover{
+	color:rgba(255,255,255,.8);
+}
+
+embed,iframe,object{
+	max-width:100%;
+}
+
+.site-main [class*="navigation"]{
+	margin:0 0 1.5em;
+	overflow:hidden;
+}
+
+.gallery{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.gallery figure img{
+	max-width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+.gallery figcaption a{
+	color:#f23e2f;
+}
+
+@font-face {
+  font-family: "Economica";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Economica"), local("Economica-Regular"), url("http://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMG1tXRa8TVwTICgirnJhmVJw.woff2") format("woff2");
+}
