@@ -1,188 +1,30 @@
 <!DOCTYPE html>
+<html ng-app="SCApp">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/bootstrap.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/styles.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/styles_responsive.css" type="text/css" media="all">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="assets/script.js"></script> 
 	<script>$(function(){$("#navigation").load("menu.html");});</script>
 	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-69615315-2', 'auto');  ga('send', 'pageview');</script>
-  </head>
+ </head>
 <body>
 	<nav id="navigation">	
 	</nav>	
-<div id="front-page-gallery" class="content-container site">
-		<div id="captioned-gallery" style="float:left;">
-			<figure class="slider">
-				<figure class="slider-image">
-					<div class="entry-image-background"><a href="robotics.html"><img src="assets/images/rsz_scrobotics.png" alt></a></div>
-					<!--<figcaption>ROBOTICS DIVISION</figcaption>-->
-				</figure>
-				<figure class="slider-image">
-					<div class="entry-image-background"><a href="rocketry.html"><img src="assets/images/rsz_scrocketry.png" alt></a></div>
-					<!--<figcaption>ROCKETRY DIVISION</figcaption>-->
-				</figure class="slider-image">
-				<figure class="slider-image">
-					<div class="entry-image-background"><a href="spacecraft.html"><img src="assets/images/rsz_scspacecraft.png" alt></a></div>
-					<!--<figcaption>SPACECRAFT DIVISION</figcaption>-->
-				</figure>
-				<figure class="slider-image">
-					<div class="entry-image-background"><a href="robotics.html"><img src="assets/images/rsz_scrobotics.png" alt></a></div>
-					<!--<figcaption>ROBOTICS DIVISION</figcaption>-->
-				</figure>
-			</figure>
-		</div>			
-</div>
-<div class ="site content-container">		
-<!-- PARALLAX
-	<div class="parallax-container" style="margin-top: 1px;">
-	<div class="parallax">
-		<div class="parallax-cover">
-		</div>
-		<div class = "site">
-			<div class="test"style="position:absolute;top:0;width:inherit;text-align:center">
-				<a style="font-size:16px;color:#FFF">READ ABOUT OUR DIVISIONS</a>
-			</div>
-				<div class="block block-parallax">
-						<div class="gallery-parallax">
-							<div class="entry-block">
-								<figure>
-									<div id="parallax-text-rocketry" class="entry-image">
-										<a href="#">ROCKETRY</a>
-										<p>test text test texttest text test texttest text test texttest text test texttest text test text</p>
-		
-									</div>
-								</figure>
-							</div>
-							<div class="entry-block">
-								<figure>
-									<div  id="parallax-text-spacecraft" class="entry-image">
-										<a href="#">SPACECRAFT</a>
-										<p>test text test texttest text test texttest text test texttest text test texttest text test texttest text test text</p>
-									</div>
-								</figure>
-							</div>
-							<div class="entry-block">
-								<figure>
-									<div id="parallax-text-robotics" class="entry-image">
-										<a href="#">ROBOTICS</a>
-										<p> test text test texttest text test texttest text test texttest text test texttest text test text</p>
-									</div>
-								</figure>
-							</div>
-						</div>
-				</div>
-	</div>
-</div>
-</div>
-</div>
--->
-		<div id="division-icons" style="text-align:center">
-				<div class="gallery-parallax">
-					<p>READ ABOUT OUR DIVISIONS</p>
-					<div class="block" style="padding:5px">
-							<div class="entry-block" style="padding:0px">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="rocketry.html"><img src="assets/images/rocketry_logo.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="rocketry.html">ROCKETRY</a></h3>	</div>	
-									</div>
-								</figure>
-							</div>							
-							<div class="entry-block">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="spacecraft.html"><img src="assets/images/spacecraft_logo.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="spacecraft.html">SPACECRAFT</a></h3></div>	
-									</div>
-								</figure>
-							</div>
-							<div class="entry-block" style="padding:0px">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="robotics.html"><img src="assets/images/robotics_logo.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="robotics.html">ROBOTICS</a></h3></div>
-									</div>
-								</figure>
-							</div>
-						</div>
-					</div>
-		</div>
-		
-		<div id="form" style="text-align:center;padding:5px">
-							<p>SUBSCRIBE TO OUR MAILING LIST</p>
-					<div class="block">
-				<div id="mc_embed_signup">
-					<form action="//spaceconcordia.us7.list-manage.com/subscribe/post?u=b7b1927ddd0542bec1ad47488&amp;id=0c7f5a75a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<div id="mc_embed_signup_scroll">
-					<!--<label for="mce-EMAIL">Subscribe to our mailing list</label> -->
-					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					<div style="position: absolute; left: -5000px;"><input type="text" name="b_b7b1927ddd0542bec1ad47488_0c7f5a75a7" tabindex="-1" value=""></div>
-					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</div>
-					</form>
-				</div>
-				<!--End mc_embed_signup-->
-			</div>
-		</div>
-		<div id ="social-media-icons" class="gallery social-media-icons" style="text-align:center; min-height:50px;padding:5px">		
-					<p>FOLLOW US</p>
-		<div class="block social-media"style="text-align:center; min-height:50px;padding:5px; width: 140px; margin: auto;">
-				<a href="https://www.facebook.com/Space.Concordia"><img src="assets/images/social_media_icons/facebook.png"/></a>
-				<a href="https://twitter.com/SpaceConcordia"><img src="assets/images/social_media_icons/instagram.png"/></a>
-				<a href="https://instagram.com/SpaceConcordia"><img src="assets/images/social_media_icons/twitter.png"/></a>
-				<a href="https://www.youtube.com/user/SpaceConcordia"><img src="assets/images/social_media_icons/youtube.png"/></a>					
-			</div>
-		</div>
+	<div ng-view/>	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-touch.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+	<script src="js/sc_app.js"></script>
+	<script src="js/sc_routes.js"></script>
+	<script src="js/sc_main.js"></script>	
+	<pre>$location.path() = {{$location.path()}}</pre>
+	<pre>$route.current.templateUrl = {{$route.current.templateUrl}}</pre>
+	<pre>$route.current.params = {{$route.current.params}}</pre>
+	<pre>$route.current.scope.name = {{$route.current.scope.name}}</pre>
+	<pre>$routeParams = {{$routeParams}}</pre>
 	
-		<!-- FIVE ICONS -->
-		<div id="index-icons" class="gallery" style="text-align:center">
-								<p>READ MORE</p>
-					<div class="block" style="padding:5px">
-							<div class="entry-block" style="padding:0px">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="frosh.html"><img src="assets/images/frosh.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="frosh.html">VISIT US DURING FROSH</a></h3>	</div>	
-									</div>
-								</figure>
-							</div>							
-							<div class="entry-block">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="visitlab.html"><img src="assets/images/lab.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="visitlab.html">VISIT OUR LAB</a></h3></div>	
-									</div>
-								</figure>
-							</div>
-							<div class="entry-block" style="padding:0px">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="#"><img src="assets/images/email.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="https://info@spaceconcordia.ca">SEND US AN EMAIL</a></h3></div>
-									</div>
-								</figure>
-							</div>
-							<div class="entry-block">
-								<figure>
-									<div class="entry-image" style="padding:0px">
-										<div class="entry-image-background"><a href="https://www.facebook.com/Space.Concordia"><img src="assets/images/facebook.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="https://www.facebook.com/Space.Concordia">VISIT OUR FACEBOOK</a></h3></div>	
-									</div>
-								</figure>
-							</div>
-							<div class="entry-block">
-								<figure>
-									<div class="entry-image" style="padding:0px">	
-										<div class="entry-image-background"><a href="news.html"><img src="assets/images/schasdone.png"height="300" width="420"/></a></div>	
-										<div class="entry-image-text-container"><h3><a href="news.html">SC IN THE MEDIA</a></h3></div>	
-									</div>
-								</figure>
-							</div>
-						</div>
-					</div>
-		</div>
-</div>
 </body>
+</html>
