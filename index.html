@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+	<title>Space Concordia</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<link href="styles.css" rel="stylesheet">
+
+	<!-- FAVICON -->
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#23489f">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="theme-color" content="#23489f">
+
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+	<div class="navbar-wrapper">
+		<div class="container">
+
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img alt="Brand" src="img/sclogo_header.png"></a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#news">News</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Divisions <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Spacecraft</a></li>
+									<li><a href="#">Rocketry</a></li>
+									<li><a href="#">Robotics</a></li>
+									<li><a href="#">Projects</a></li>
+								</ul>
+							</li>
+							<li><a href="#join">Join the Team!</a></li>
+							<li><a href="#store">Store</a></li>
+							<li class="active"><a href="#donate">Donate</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		</div>
+	</div>
+	<!-- END OF NAVBAR -->
+
+	<!-- CAROUSEL -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<!-- FIRST SLIDE -->
+			<!-- if you want to modify the background picture, replace the firstslide.png picture in the img folder with desired picture. make sure it is titled firstslide.png -->
+			<div class="item active">
+				<img class="first-slide" src="img/firstslide.png" alt="First slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Welcome to Space Concordia!</h1>
+						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					</div>
+				</div>
+			</div>
+			<!-- END OF FIRST SLIDE -->
+
+			<!-- SECOND SLIDE -->
+			<div class="item">
+				<img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Announcement</h1>
+						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+			<!-- END OF SECOND SLIDE -->
+
+			<!-- THIRD SLIDE -->
+			<div class="item">
+				<img class="third-slide" src="img/thirdslide.png" alt="Third slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Join the Space Concordia team</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Join now!</a></p>
+					</div>
+				</div>
+			</div>
+			<!-- END OF THIRD SLIDE -->
+		</div>
+
+		<!-- CAROUSEL BUTTONS -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- END OF CAROUSEL -->
+
+	<!-- HEADINGS (DIVISIONS) -->
+     <!-- If you want to change the division pictures, replace either
+     	spacecraft.png
+     	rocketry.png
+     	robotics.png
+     	projects.png
+     	With whatever picture you want to replace it with. -->
+
+     	<div class="container marketing">
+
+     		<div class="division title">
+     			<div class="col-lg-12">
+     				<h1>DIVISIONS</h1>
+     			</div>
+     		</div>
+
+     		<div class="row">
+     			<!-- 1 -->
+     			<div class="col-lg-3">
+     				<a href="#spacecraft"><img class="img-circle" src="img/spacecraft.png" alt="Robotics Division" width="140" height="140"></a>
+     				<h2>Spacecraft</h2>
+     			</div>
+     			<!-- 2 -->
+     			<div class="col-lg-3">
+     				<a href="#rocketry"><img class="img-circle" src="img/rocketry.png" alt="Rocketry Division" width="140" height="140"></a>
+     				<h2>Rocketry</h2>
+     			</div>
+     			<!-- 3 -->
+     			<div class="col-lg-3">
+     				<a href="#robotics"><img class="img-circle" src="img/robotics.png" alt="Robotics Division" width="140" height="140"></a>
+     				<h2>Robotics</h2>
+     			</div>
+     			<!-- 4 -->
+     			<div class="col-lg-3">
+     				<a href="#projects"><img class="img-circle" src="img/projects.png" alt="Projects Division" width="140" height="140"></a>
+     				<h2>Projects</h2>
+     			</div>
+     		</div>
+
+     		<!-- FEATURETTES -->
+
+     		<hr class="featurette-divider">
+
+     		<div class="row featurette">
+     			<div class="col-md-7">
+     				<h2 class="featurette-heading">ABOUT US</h2>
+     				<p class="lead">Space Concordia is a student-run society dedicated to performing astronautics and aerospace projects. Students participating in Space Concordia will get a chance to learn the necessary skills to work in the challenging environment presented by aerospace and astronautics companies. Alumni of Space Concordia have even had the opportunity to work for organizations like MDA or the Canadian Space Agency. If you're interested in working on projects which will pit your engineering skills against some of the most challenging environmental conditions, most extreme speeds, and the most complex missions of the final frontier, then this is the society for you!<br><br>
+
+     					We have three major divisions:<br><br>
+
+     					Spacecraft: Whether it's putting the final touches on the space-bound ConSat-1, or working on the Aleksandr satellite for the next iteration of the Canadian Satellite Design Challenge, the spacecraft division gives engineers from many different specialties a chance to tackle the challenges presented by space flight.<br><br>
+
+     					Rocketry: Participating in the Intercollegiate Rocket Engineering Competition, our Rocketry Division is designing and building a rocket to fly to 10,000 feet carrying an experimental payload. If you want to build atmospheric vehicles that travel higher and faster than anything else built at Concordia, this is the place for you.<br><br>
+
+     					Robotics: Attending the University Rover Challenge in Utah with a rover that is designed to execute complex tasks such as astronaut assistance, on-board soil analysis, and long distance communication, the robotics division is in the business of building some of the smartest machines for the worst environments.</p>
+     			</div>
+     			<div class="col-md-5">
+     				<img class="featurette-image img-responsive center-block" data-src="img/patch.png" alt="Space Concordia Patch">
+     			</div>
+     		</div>
+
+     		<hr class="featurette-divider">
+
+     		<div class="row featurette">
+     			<div class="col-md-7 col-md-push-5">
+     				<h2 class="featurette-heading">About Us</h2>
+     				<p class="lead"></p>
+     				</div>
+     				<div class="col-md-5 col-md-pull-7">
+     					<img class="featurette-image img-responsive center-block" data-src="img/patch.png" alt="Space Concordia Seal">
+     				</div>
+     			</div>
+
+     			<hr class="featurette-divider">
+
+     			<!-- FOOTER -->
+     			<footer>
+     				<p class="pull-right"><a href="#">Back to top</a></p>
+     				<p>&copy; 2016 Space Concordia &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+     			</footer>
+
+     		</div><!-- /.container -->
+
+     		<!-- JQUERY -->
+     		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+     	</body>
+     	</html>
