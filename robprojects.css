@@ -2,15 +2,11 @@
 -------------------------------------------------- */
 
 .navbar-wrapper .navbar {
-  background-color: #a6a6a6;
+  background-color: #2a2925;
 }
 
 .navbar-brand img {
-  background-color: #a6a6a6;
-}
-
-.nav.navbar-nav li a {
-	color: black;
+  background-color: #2a2925;
 }
 
 .robotics h1 {
