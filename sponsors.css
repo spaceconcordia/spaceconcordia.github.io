@@ -1,13 +1,63 @@
-/* CUSTOMIZE THE NAVBAR
+  #tabs {
+    text-align: center;
+  }
+
+  ul.tab {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  /* Float the list items side by side */
+  ul.tab li {float: left;}
+
+  /* Style the links inside the list items */
+  ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  /* Change background color of links on hover */
+  ul.tab li a:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  ul.tab li a:focus, .active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    text-align: center;
+  }
+
+/* -------------------------------------------------------------- */
+
+  /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 .sponsors h1 {
-	padding: 40px 15px;
-	text-align: center;
+  padding: 40px 15px;
+  text-align: center;
 }
 
 .sponsors p {
-	text-align: justify;
+  text-align: justify;
 }
 
 /* MARKETING CONTENT
@@ -15,56 +65,56 @@
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-2 {
-	margin-bottom: 20px;
-	text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .marketing h2 {
-	text-align: center;
-	margin-bottom: -10px;
-	font-size: 18px;
+  text-align: center;
+  margin-bottom: -10px;
+  font-size: 18px;
 }
 
 .marketing h4 {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 .marketing .col-lg-2 p {
-	margin-right: 10px;
-	margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .marketing .col-lg-12 h1 {
-	text-align: center;
-	margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .marketing .col-lg-12 p {
-	text-align: center;
+  text-align: center;
 }
 
 .marketing .col-lg-12 {
-	margin-bottom: 20px;
-	text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .marketing .col-lg-4 {
-	margin-bottom: 20px;
-	text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #sponsors {
-	margin-top: 20px;
-	margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 #sponsordivision {
-	margin-top: 0px;
-	margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .marketing .featurette-heading {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -72,24 +122,24 @@
 
 /* Carousel base class */
 .carousel {
-	height: 400px;
-	margin-bottom: 60px;
+  height: 400px;
+  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-	top: 30%;
-	z-index: 10;
+  top: 30%;
+  z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	height: 400px;
-	background-color: #777;
+  height: 400px;
+  background-color: #777;
 }
 .carousel-inner > .item > img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
 }
