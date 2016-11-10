@@ -104,6 +104,10 @@
   text-align: center;
 }
 
+.marketing > .message p {
+  font-size: 20px;
+}
+
 #sponsors {
   margin-top: 20px;
   margin-bottom: 0px;
