@@ -72,6 +72,13 @@ body {
 	text-align: center;
 }
 
+.marketing .col-lg-12 input {
+  width: 30%;
+}
+
+.marketing .col-lg-12 textarea {
+  width: 30%;
+}
 
 /* CUSTOMIZE THE MAP
 --------------------------------------------------- */

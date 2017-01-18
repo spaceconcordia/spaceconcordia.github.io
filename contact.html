@@ -78,33 +78,11 @@
 
 	<div class="container marketing">
 		<div class="col-lg-12">
-			<form id="contact_form" action="contact.css" method="POST" enctype="multipart/form-data">
-				<div class="row">
-					<label for="department">Question regarding:</label><br />
-					<select name="department">
-						<option value="">Select...</option>
-						<option value="internal">Membership</option>
-						<option value="external">External affairs</option>
-						<option value="sponsorship">Sponsorship</option>
-						<option value="internal">Division-Specific</option>
-						<option value="social">Social Events</option>
-						<option value="president">Others</option>
-					</select>
-				</div>
-				<div class="row">
-					<label for="name"><br />Name</label><br />
-					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-				</div>
-				<div class="row">
-					<label for="email"><br />Email</label><br />
-					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-				</div>
-				<div class="row">
-					<label for="message"><br />Message</label><br />
-					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br /><br />
-				</div>
-				<input id="submit_button" type="submit" value="Submit" />
-			</form>	
+			<form method="POST" action="http://formspree.io/info@spaceconcordia.ca">
+			<input type="email" name="email" placeholder="Your email"><br><br>
+				<textarea name="message" placeholder="Your message"></textarea><br><br><br>
+				<button type="submit">Send</button>
+			</form>
 		</div>
 	</div>
 
