@@ -1,5 +1,4 @@
-<b>SPACE CONCORDIA WEBSITE</b><br>
-<b>---------------------------------</b>
+<b>SPACE CONCORDIA WEBSITE</b>
 
 Guidelines to add sponsors to the website:
 
@@ -9,8 +8,8 @@ Guidelines to add sponsors to the website:
 2) Images are generally saved as a .jpg using the Save for Web option in Photoshop in order to have the images load faster
 
 3) Image sizes are as follows:
-	Platinum: 350x350
-	Gold: 250x250
-	Silver: 170x170
+	Platinum: 350x350<br>
+	Gold: 250x250<br>
+	Silver: 170x170<br>
 	Bronze: 100x100
 
