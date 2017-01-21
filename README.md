@@ -1,5 +1,5 @@
 <b>SPACE CONCORDIA WEBSITE</b><br>
-<b>--------------------------</b>
+<b>---------------------------------</b>
 
 Guidelines to add sponsors to the website:
 
