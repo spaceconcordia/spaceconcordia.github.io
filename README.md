@@ -17,9 +17,9 @@ Guidelines to add sponsors to the website:
 	</ul></li>
 
 <li>Here is the format for each individual sponsor:<br>
-<pre><code><div class="col-lg-4"><br>
-      <a href="http://mdacorporation.com/"><img class="img" src="img/sponsors/15-16/mda.jpg" alt="MDA" width="350" height="350"></a><br>
-      <h2>MDA</h2><br>
-  </div></code></pre>
+<pre><code>&lt;div class="col-lg-4"&gt;<br>
+      &lt;a href="http://mdacorporation.com/"&gt;&lt;img class="img" src="img/sponsors/15-16/mda.jpg" alt="MDA" width="350" height="350"&gt;&lt;/a&gt;<br>
+      &lt;h2>MDA&lt;/h2&gt;<br>
+  &lt;/div&gt;</code></pre>
 </li>
 </ol>
