@@ -20,7 +20,8 @@ Guidelines to add sponsors to the website:
 <pre><code>&lt;div class="col-lg-4"&gt;<br> 
       &lt;a href="http://mdacorporation.com/"&gt;&lt;img class="img" src="img/sponsors/15-16/mda.jpg" alt="MDA" width="350" height="350"&gt;&lt;/a&gt;<br>
       &lt;h2>MDA&lt;/h2&gt;<br>
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;</code></pre><br>
+Use col-lg-4 for Platinum, col-lg-3 for Gold, and col-lg-2 for Silver and Bronze. Adjust the width and height using guideline 3.<br>
 You can fit 3 col-lg-4 in a row, 4 col-lg-3 in a row and 6 col-lg-2. So if you have to add a new row, wrap this around the previous code.<br>
 <pre><code>&lt;div class="row"&gt;<br>
 sponsor code here<br>
