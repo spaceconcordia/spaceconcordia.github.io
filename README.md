@@ -3,12 +3,12 @@
 Guidelines to add sponsors to the website:
 
 <ol>
-<li>1) Sponsor images are located at img/sponsors/xx-xx (xx-xx being the years).
+<li>Sponsor images are located at img/sponsors/xx-xx (xx-xx being the years).
    Please place them in the corresponding years to keep things neat and easy to find.</li>
 
-<li>2) Images are generally saved as a .jpg using the Save for Web option in Photoshop in order to have the images load faster</li>
+<li>Images are generally saved as a .jpg using the Save for Web option in Photoshop in order to have the images load faster</li>
 
-<li>3) Image sizes are as follows:
+<li>Image sizes are as follows:
 	<ul>
 	<li>Platinum: 350x350</li>
 	<li>Gold: 250x250</li>
