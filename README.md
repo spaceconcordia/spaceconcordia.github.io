@@ -1,4 +1,4 @@
-<b>Space Concordia Website</b>
+<b>SPACE CONCORDIA WEBSITE</b><br>
 <b>--------------------------</b>
 
 Guidelines to add sponsors to the website:
