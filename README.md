@@ -17,9 +17,12 @@ Guidelines to add sponsors to the website:
 	</ul></li>
 
 <li>Here is the format for each individual sponsor:<br>
-<pre><code>&lt;div class="col-lg-4"&gt;<br>
+<pre><code>&lt;div class="col-lg-4"&gt;<br> 
       &lt;a href="http://mdacorporation.com/"&gt;&lt;img class="img" src="img/sponsors/15-16/mda.jpg" alt="MDA" width="350" height="350"&gt;&lt;/a&gt;<br>
       &lt;h2>MDA&lt;/h2&gt;<br>
-  &lt;/div&gt;</code></pre>
+&lt;/div&gt;</code></pre>
+You can fit 3 col-lg-4 in a row, 4 col-lg-3 in a row and 6 col-lg-2. So if you have to add a new row, wrap this around the previous code.<br>
+<pre><code>&lt;div class="row"&gt;<br>
+&lt;/div&gt;<br>
 </li>
 </ol>
