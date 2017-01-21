@@ -23,6 +23,7 @@ Guidelines to add sponsors to the website:
 &lt;/div&gt;</code></pre>
 You can fit 3 col-lg-4 in a row, 4 col-lg-3 in a row and 6 col-lg-2. So if you have to add a new row, wrap this around the previous code.<br>
 <pre><code>&lt;div class="row"&gt;<br>
+sponsor code here<br>
 &lt;/div&gt;<br>
 </li>
 </ol>
