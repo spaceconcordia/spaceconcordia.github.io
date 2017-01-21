@@ -28,3 +28,5 @@ sponsor code here<br>
 &lt;/div&gt;</pre></code>
 </li>
 </ol>
+
+If you have any questions, feel free to contact me on Slack @n0pan or send me an email to <a href="mailto:lqhp@spaceconcordia.ca">lqhp@spaceconcordia.ca</a>.
