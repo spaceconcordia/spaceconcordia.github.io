@@ -8,6 +8,7 @@
     position: relative;
     list-style-type: none;
     margin: 0;
+    margin-bottom: 25px;
     padding: 0;
     overflow: hidden;
     border: 1px solid #ccc;
@@ -78,11 +79,24 @@
 .marketing h2 {
   text-align: center;
   margin-bottom: -10px;
-  font-size: 18px;
+  font-size: 25px;
+}
+
+.marketing h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .marketing h4 {
   font-weight: normal;
+  font-size: 13px;
+}
+
+.marketing h6 {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 18px;
 }
 
 .marketing .col-lg-2 p {
