@@ -22,7 +22,7 @@
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.projects .col-lg-12 {
+.projects .col-lg-6 {
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -35,21 +35,21 @@
 	font-weight: normal;
 }
 
-.projects .col-lg-12 p {
+.projects .col-lg-6 p {
 	margin-right: 10px;
 	margin-left: 10px;
 }
 
-.projects .col-lg-12 h1 {
+.projects .col-lg-6 h1 {
 	text-align: center;
 	margin-bottom: 20px;
 }
 
-.projects .col-lg-12 p {
+.projects .col-lg-6 p {
 	text-align: center;
 }
 
-.projects .col-lg-12 {
+.projects .col-lg-6 {
 	margin-bottom: 20px;
 	text-align: center;
 }
