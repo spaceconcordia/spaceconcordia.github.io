@@ -99,6 +99,10 @@
   font-size: 18px;
 }
 
+.execBlock {
+    padding: 30px;
+}
+
 .marketing .col-lg-2 p {
   margin-right: 10px;
   margin-left: 10px;
