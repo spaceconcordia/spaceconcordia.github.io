@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	lists[3].classList.add('projects-btn-js');
 	lists[4].classList.add('contact-btn-js');
 
-		// get nav buttons
+	// get nav buttons
 	var spaceCraftBtn = document.querySelectorAll('.spacecraft-btn-js')[0];
 	var rocketryBtn = document.querySelectorAll('.rocketry-btn-js')[0];
 	var projectsBtn = document.querySelectorAll('.projects-btn-js')[0];
