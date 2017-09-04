@@ -3,7 +3,6 @@
  * similar to jQuery's $(document).ready(function(){});
  */
 document.addEventListener("DOMContentLoaded", function() {
-    console.log('DOMCONTENTLOADED YO');
     var footer = document.querySelector('footer');
     var backToTop = '<p class="pull-right"><a href="#">Back to top</a></p>';
     var copyRight = '<p>&copy; ' + getCurrentYear() + ' <a href="index.html">Space Concordia</a> &middot; All rights reserved.</p>';
