@@ -20,23 +20,23 @@ document.addEventListener("DOMContentLoaded", function() {
 	// event handler functions for navigation
 	var navigateToAbout = function () {
 		// check if we are a page page that is 
-		window.location.href = isCurrentPageIndex() ? 'index.html' : '../../index.html';
+		window.location.href = (Util.isCurrentPageIndex()) ? 'index.html' : '../../index.html';
 	}
 
 	var navigateToSpaceCraft = function() {
-		window.location.href = isCurrentPageIndex() ? 'src/html/spacecraft.html' : 'spacecraft.html';
+		window.location.href = (Util.isCurrentPageIndex()) ? 'src/html/spacecraft.html' : 'spacecraft.html';
 	}
 
 	var navigateToRocketry = function() {
-		window.location.href = isCurrentPageIndex() ? 'src/html/rocketry.html' : 'rocketry.html';
+		window.location.href = (Util.isCurrentPageIndex()) ? 'src/html/rocketry.html' : 'rocketry.html';
 	}
 
 	var navigateToProjects = function() {
-		window.location.href = isCurrentPageIndex() ? 'src/html/projects.html' : 'projects.html';
+		window.location.href = (Util.isCurrentPageIndex()) ? 'src/html/projects.html' : 'projects.html';
 	}
 
 	var navigateToContact = function() {
-		window.location.href = isCurrentPageIndex() ? 'src/html/contact.html' : 'contact.html';
+		window.location.href = (Util.isCurrentPageIndex()) ? 'src/html/contact.html' : 'contact.html';
 	}
 
 	// bind listeners to dropdown button hybrids
@@ -46,14 +46,3 @@ document.addEventListener("DOMContentLoaded", function() {
 	projectsBtn.onclick 	= navigateToProjects;
 	contactBtn.onclick 		= navigateToContact;
 });
-
-/**
- * Since the only html file in the root directory is index.html,
- * check if URL does not contain 'src/html/', where all other
- * html files are
- * @returns {boolean} true if we are not in 'src/html', i.e. if the current page is index.html
- */
-var isCurrentPageIndex = function() {
-	return !window.location.href.includes('src/html/');
-}
-
