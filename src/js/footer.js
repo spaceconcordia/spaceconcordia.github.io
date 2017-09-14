@@ -1,6 +1,5 @@
 /**
  * dynamically loads the content of the footers on DOMContentLoaded,
- * similar to jQuery's $(document).ready(function(){});
  */
 document.addEventListener("DOMContentLoaded", function() {
     var footer = document.querySelector('footer');
