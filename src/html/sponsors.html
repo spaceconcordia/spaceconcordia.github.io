@@ -7,14 +7,6 @@
 
     <title>Space Concordia - Sponsors</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaGU0-6aZH48QaiiiaurSz2Ugiepb5-7g"></script>
-    <script src="../js/utilities.js"></script>
-    <script src="../js/maps.js"></script>
-    <script src="../js/smoothscrolling.js"></script>
-    <script src="../js/expandableLinks.js"></script>
-    <script src="../js/footer.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/sponsors.css">
@@ -674,23 +666,34 @@
   <footer></footer>
 </div><!-- end footer -->
 
-<script>
-  function openTab(evt, year) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(year).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
+    <script>
+        function openTab(evt, year) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            
+            tablinks = document.getElementsByClassName("tablinks");
+            
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            
+            document.getElementById(year).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
 
-  document.getElementById("defaultOpen").click();
-</script>
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaGU0-6aZH48QaiiiaurSz2Ugiepb5-7g"></script>
+    <script src="../js/maps.js"></script>
+    <script src="../js/smoothscrolling.js"></script>
+    <script src="../js/expandableLinks.js"></script>
+    <script src="../js/footer.js"></script>
 
 </body>
 </html>
