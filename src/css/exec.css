@@ -66,14 +66,18 @@
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-2 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .col-centered {
   float: none;
   margin: 0 auto;
+}
+
+.execBlock {
+    padding: 15px;
+}
+
+.marketing .col-lg-2 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .marketing h2 {
@@ -97,10 +101,6 @@
   text-align: center;
   margin-top: 18px;
   font-size: 18px;
-}
-
-.execBlock {
-    padding: 30px;
 }
 
 .marketing .col-lg-2 p {
@@ -127,6 +127,10 @@
   text-align: center;
 }
 
+.marketing .featurette-heading {
+  margin-top: 0;
+}
+
 .marketing > .message p {
   font-size: 18px;
   text-align: center;
@@ -142,8 +146,8 @@
   margin-bottom: 20px;
 }
 
-.marketing .featurette-heading {
-  margin-top: 0;
+.role {
+    font-weight: bold;
 }
 
 /* CUSTOMIZE THE CAROUSEL
