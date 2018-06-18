@@ -119,6 +119,11 @@ footer {
   color: white;
   padding-right: 15px; }
 
+.footer__join {
+	margin: 0px;
+	margin-top: -20px;
+}
+  
 .footer__copyright {
   color: white; }
 
