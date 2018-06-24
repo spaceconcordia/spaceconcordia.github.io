@@ -78,6 +78,21 @@ footer {
   font-size: 3em;
   text-align: center;
   color: white; }
+  
+.contact__header {
+	height: 200px;
+	background: url(../img/contact_header.jpg) no-repeat;
+	min-height: 100px;
+	background-size: cover;
+	padding-top, padding-bottom: 50px; }
+	
+	.contact__header span {
+		font-size: 3em;
+		color: white; }
+
+.contact__body {
+	margin-top:25px;
+}
 
 .divisions {
   color: #001429;
@@ -162,7 +177,7 @@ footer {
   height: 500px;
   background: url(../img/exec_header.jpg) no-repeat;
   background-size: cover; }
-  .exec__header span {
+.exec__header span {
     font-size: 3em;
     color: white; }
 
