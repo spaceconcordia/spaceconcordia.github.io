@@ -86,31 +86,36 @@
 
     </nav>
 
-    <section class="mission__header  d-flex justify-content-center">
+    <section class="contact__header  d-flex justify-content-center">
         <span class="align-self-center mt-5">
-			Our Mission
+			Contact
         </span>
     </section>
 
-    <section class="content mission__body container">
-        <h1>About Us</h1>
-        <hr>
-        <div>
-            Space Concordia is an award-winning, multidisciplinary student society of over 200 students from various fields of study
-            working in different subdivisions such as Spacecraft, Ground Station, Rocketry and Robotics. The society’s mission
-            is twofold:
-            <ul class="pt-3">
-                <li>
-                    First, to provide a platform of end-to-end projects where students can exercise their passion for space.
-                </li>
-                <li>
-                    Second, to inform individuals of all ages about the space industry and to inspire the next generation of Canadian space advocates.
-                </li>
-            </ul>
-            Space Concordia makes a continuous effort to be more than just your average student society with a typical competition-based
-            structure; we aim to be similar to a space agency where we show our expertise not only through the projects we
-            develop, but also through the actions we do on a larger scale to benefit society as a whole.
-        </div>
+    <section class="content contact__body container">
+        <div class="row">
+			<div class="col-md-4">
+				<h1>Send Us An Email</h1>
+				<form method="POST" action="http://formspree.io/info@spaceconcordia.ca">
+					<input type="email" name="email" placeholder="Your email"><br><br>
+					<textarea name="message" placeholder="Your message"></textarea><br><br><br>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+			<div class="col-md-4">
+				<h1>Message Us on Facebook</h1>
+				<div class="ml-auto mb-2">
+					<a class="btn btn-primary" href="https://www.facebook.com/Space.Concordia">Space Concordia Facebook Page</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h1>Come See Us!</h1>
+				<div class="jumbotron">
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> <b>H 1029-7</b><br>1455 De Maisonneuve West<br>Montreal, Quebec<br>H3G 1M8</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i> (514) 848-2424 ext. 2738</p>
+				</div>
+			</div>
+		</div>
     </section>
 
     <footer>
