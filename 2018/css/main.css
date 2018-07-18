@@ -168,6 +168,35 @@ footer {
   .history__body div,
   .mission__body div {
     text-align: justify; }
+	
+.exec__images {
+	margin-top:50px;
+}
+
+.exec__block {
+	margin-bottom:10px;
+}
+
+.exec__block img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.exec__block h3{
+	font-size:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.exec__block h4 {
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:0px;
+	text-align:center;
+}
 
 .exec__images div {
   padding-bottom: 50px;
