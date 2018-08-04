@@ -217,6 +217,15 @@ footer {
   .mission__header span {
     font-size: 3em;
     color: white; }
+	
+.mosaic {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#myMosaic {
+	margin-bottom:250px;
+}
 
 .history__header {
   height: 500px;

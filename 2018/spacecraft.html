@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mosaic.css" />
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
@@ -30,6 +31,7 @@
 	<meta name="theme-color" content="#ffffff">
 	
 	<title>Space Concordia - Spacecraft</title>
+
 </head>
 
 <body>
@@ -173,6 +175,17 @@
 		</div>
 		
 		<hr />
+		
+		<div class="mosaic">
+			<h2>Media</h2>
+			
+			<div id="myMosaic">
+				<img src="img/spacecraft/image1.jpg" width="500" />
+				<img src="img/spacecraft/image2.jpg" width="500" />
+				<img src="img/spacecraft/image3.jpg" width="500" />
+				<img src="img/spacecraft/image4.jpg" width="500" />
+			</div>
+		</div>
 	
 	</section>
 
@@ -212,7 +225,12 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.mosaic.js"></script>
     <script src="https://use.fontawesome.com/4912cabb52.js"></script>
+	
+	<script>
+		$('#myMosaic').Mosaic();
+	</script>
 </body>
 
 </html>
