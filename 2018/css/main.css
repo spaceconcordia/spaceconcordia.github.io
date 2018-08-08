@@ -78,6 +78,21 @@ footer {
   font-size: 3em;
   text-align: center;
   color: white; }
+  
+.contact__header {
+	height: 200px;
+	background: url(../img/contact_header.jpg) no-repeat;
+	min-height: 100px;
+	background-size: cover;
+	padding-top, padding-bottom: 50px; }
+	
+	.contact__header span {
+		font-size: 3em;
+		color: white; }
+
+.contact__body {
+	margin-top:25px;
+}
 
 .divisions {
   color: #001429;
@@ -89,6 +104,7 @@ footer {
 
 .division__spacecraft,
 .division__rocketry,
+.division__robotics,
 .division__special {
   padding: 20px 0px; }
 
@@ -119,6 +135,11 @@ footer {
   color: white;
   padding-right: 15px; }
 
+.footer__join {
+	margin: 0px;
+	margin-top: -20px;
+}
+  
 .footer__copyright {
   color: white; }
 
@@ -147,6 +168,35 @@ footer {
   .history__body div,
   .mission__body div {
     text-align: justify; }
+	
+.exec__images {
+	margin-top:50px;
+}
+
+.exec__block {
+	margin-bottom:10px;
+}
+
+.exec__block img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.exec__block h3{
+	font-size:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.exec__block h4 {
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:0px;
+	text-align:center;
+}
 
 .exec__images div {
   padding-bottom: 50px;
@@ -156,7 +206,7 @@ footer {
   height: 500px;
   background: url(../img/exec_header.jpg) no-repeat;
   background-size: cover; }
-  .exec__header span {
+.exec__header span {
     font-size: 3em;
     color: white; }
 
@@ -167,6 +217,15 @@ footer {
   .mission__header span {
     font-size: 3em;
     color: white; }
+	
+.mosaic {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#myMosaic {
+	margin-bottom:250px;
+}
 
 .history__header {
   height: 500px;
