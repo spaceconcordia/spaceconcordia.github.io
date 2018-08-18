@@ -223,6 +223,15 @@ footer {
 	margin-right:20px;
 }
 
+.outreach__header {
+  height: 500px;
+  background: url(../img/outreach_header.jpg) no-repeat;
+  background-size: cover; }
+  .outreach__header span {
+    font-size: 3em;
+    color: white; }
+
+
 #myMosaic {
 	margin-bottom:250px;
 }
