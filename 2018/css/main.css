@@ -218,8 +218,15 @@ footer {
     font-size: 3em;
     color: white; }
 	
-	
-	
+
+	.spacecraft__header {
+  height: 400px;
+ background: url(../img/spacecraft/spacecraft_header.png) no-repeat;
+  background-size: cover }
+  .spacecraft__header span {
+    font-size: 3em;
+    color: white; }
+    
 	
 	
 .mosaic {
