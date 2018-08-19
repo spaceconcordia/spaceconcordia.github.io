@@ -211,12 +211,16 @@ footer {
     color: white; }
 
 .mission__header {
-  height: 500px;
+  height: 400px;
   background: url(../img/mission_header.jpg) no-repeat;
   background-size: cover; }
   .mission__header span {
     font-size: 3em;
     color: white; }
+	
+	
+	
+	
 	
 .mosaic {
 	margin-left:20px;
