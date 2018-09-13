@@ -1,250 +1,356 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<meta name="viewport" content="width = device-width, initial-scale = 1">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
 	<title>Space Concordia</title>
-
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="src/css/styles.css">
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <div class="navbar-wrapper">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+
         <div class="container">
-            <nav class="navbar navbar-inverse navbar-static-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+            <a class="navbar-brand" href="#"><img src="img/sc-brand.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img alt="Brand" src="img/sclogo_header.png"></a>
-                    </div> <!-- .navbar-header -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                                       About Us
+                                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="mission.html">Our Mission</a>
+							<a class="dropdown-item" href="outreach.html">Outreach</a>
+                            <a class="dropdown-item" href="history.html">History</a>
+                            <a class="dropdown-item" href="exec.html">Executive Team</a>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                                    Divisions
+                                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="spacecraft.html">Spacecraft</a>
+                            <a class="dropdown-item" href="rocketry.html">Rocketry</a>
+							<a class="dropdown-item" href="robotics.html">Robotics</a>
+                            <a class="dropdown-item" href="specialprojects.html">Special Projects</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.concordia.ca/alumni-friends/giving-to-concordia/fundone/space-concordia-2018.html"
+                            target="_blank">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active dropdown">
-                                <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspop="true" aria-expanded="false">
-                                    About Us<span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="src/html/mission.html">Mission</a></li>
-                                    <li><a href="src/html/history.html">Our History</a></li>
-                                    <li><a href="src/html/exec.html">Our Executive Team</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="https://medium.com/space-concordia" target=_"blank">Blog</a></li>
-                            <li class="dropdown">
-                                <a href="src/html/spacecraft.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspop="true" aria-expanded="false">
-                                    Spacecraft Division<span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="src/html/consat-1.html">ConSat-1</a></li>
-                                    <li><a href="src/html/aleksandr.html">Aleksandr</a></li>
-                                    <li><a href="src/html/groundsegment.html">Ground Station</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="src/html/rocketry.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspop="true" aria-expanded="false">
-                                    Rocketry Division<span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="src/html/arcturus.html">Arcturus</a></li>
-                                    <li><a href="src/html/aurelius.html">Aurelius</a></li>
-									<li><a href="src/html/maurice.html">Maurice</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="src/html/projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspop="true" aria-expanded="false">
-                                    Special Projects<span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="src/html/robotics.html">Robotics</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="src/html/sponsors.html">Sponsors</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspop="true" aria-expanded="false">
-                                    Contact Us<span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="src/html/join.html">Join the Team!</a></li>
-                                    <li><a href="src/html/contact.html">Contact Form</a></li>
-                                    <li><a href="src/html/faq.html">FAQ</a></li>
-                                </ul>
-                            <li><a href="src/html/donate.html">Donate</a></li>
-                        </ul>
-                    </div><!-- .navbar -->
-                </div><!-- .container -->
-            </nav>
-        </div><!-- .container -->
-    </div><!-- .navbar-wrapper -->
-    <!-- END OF NAVBAR -->
+    </nav>
 
-		<!-- CAROUSEL -->
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
+    <section class="content">
+        <div class="about">
 
-			<div class="carousel-inner" role="listbox">
+            <div class="container">
 
-				<!-- FIRST SLIDE -->
-				<!-- if you want to modify the background picture, replace the firstslide.png picture in the img folder with desired picture. make sure it is titled firstslide.png -->
-				<div class="item active">
-					<img class="first-slide" src="img/firstslide.jpg" alt="First slide">
-					<div class="container">
-						<div class="carousel-caption">
-							<h1>Welcome to Space Concordia!</h1>
-							<p>Space Concordia is an award-winning, multidisciplinary student society of over 200 students from various fields of studies working in different subdivisions such as Spacecraft, Ground Station, Rocketry and Robotics.</p>
-						</div><!-- .carousel-caption -->
-					</div><!-- .container -->
-				</div><!-- .item active -->
-				<!-- END OF FIRST SLIDE -->
+                <div class="row">
+                    <div class="col-lg-8 col-sm-12 font-sm-size">
+                        <!--<span class="about__title test text-sm-center">Welcome to Space Concordia!</span>-->
+                    </div>
+                    <div class="col text-sm-center padding-sm-t2">
+                        <img src="img/sc-logo.png" class="float-right-lg" width="100" height="100">
+                    </div>
+                </div>
+                <br>
+                <p>
+                    Space Concordia is a student society at Concordia University that throws its members at challenging space and aerospace projects, to yield awesome results. We win awards at national and international competitions, we showcase our school, but most importantly:
+                    Space Concordia teaches and trains excellent young scientists and engineers through hands-on work and
+                    an attitude of persistence and collaboration.
+                </p>
 
-				<!-- SECOND SLIDE -->
-				<div class="item">
-					<img class="second-slide" src="img/secondslide.jpg" alt="Second slide">
-					<div class="container">
-						<div class="carousel-caption">
-							<h1>Follow us on Social Media</h1>
-							<p>Follow us on social media to have the latest updates!</p>
-							<p><a class="btn btn-lg btn-primary" href="#follow_us" role="button">Learn more</a></p>
-						</div><!-- .carousel-caption -->
-					</div><!-- .container -->
-				</div><!-- .item -->
-				<!-- END OF SECOND SLIDE -->
 
-				<!-- THIRD SLIDE -->
-				<div class="item">
-					<img class="third-slide" src="img/thirdslide.jpg" alt="Third slide">
-					<div class="container">
-						<div class="carousel-caption">
-							<h1>Join the Space Concordia team</h1>
-							<p>We welcome students of every discipline, even outside engineering! Want to be a part of something amazing? Join the team today or visit us at H1029-7.</p>
-							<p><a class="btn btn-lg btn-primary" href="src/html/join.html" role="button">Join now!</a></p>
-						</div><!-- .carousel-caption -->
-					</div><!-- .container -->
-				</div><!-- .item -->
-				<!-- END OF THIRD SLIDE -->
+                <div class="d-flex justify-content-start">
 
-			</div><!-- carousel-inner -->
+                    <!-- <div class="about__socials col-sm-5 pl-0">
+                        <a target="_blank" href="https://www.facebook.com/Space.Concordia">
+                                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                        </a>
+                        <a target="_blank" href="https://twitter.com/SpaceConcordia">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                        <a target="_blank" href="https://www.instagram.com/SpaceConcordia/">
+                                            <i class="fa fa-instagram" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="linkedin profile"></i>
+                                        </a>
+                        <a target="_blank" href="https://www.youtube.com/user/SpaceConcordia">
+                                                <i class="fa fa-youtube" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="linkedin profile"></i>
+                                            </a>
+                        <a target="_blank" href="https://www.linkedin.com/company/space-concordia">
+                                                    <i class="fa fa-linkedin-square" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="linkedin profile"></i>
+                                                </a>
+                    </div> -->
 
-			<!-- CAROUSEL BUTTONS -->
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
+                    <div class="ml-auto mb-2">
+                        <a href="mission.html">
+                            <button type="button" class="btn btn-outline-light btn-raised mb-2 btn-social">Our Mission</button>
+                        </a>
+
+                        <a href="https://goo.gl/forms/gGjKNAb269yundv42">
+                            <button type="button" class="btn btn-outline-light btn-raised mb-2 btn-social">Get Involved</button>
+                        </a>
+
+                        <a href="https://www.facebook.com/pg/Space.Concordia/events/?ref=page_internal">
+                            <button type="button" class="btn btn-outline-light btn-raised mb-2 btn-social">Events</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divisions">
+
+
+            <div class="container">
+                <!-- <div class="row d-flex justify-content-center">
+                    <h2>DIVISIONS</h2>
+                </div> -->
+                <div class="division__spacecraft">
+                    <div class="division__title row justify-sm-center">
+                        <span>Spacecraft</span>
+                    </div>
+                    <div class="division__card row">
+                        <div class="division__card__logo col-sm-3 text-sm-center">
+                            <img src="img/spacecraft-logo.png" class="justify-sm-center" width="200" height="200px">
+                        </div>
+                        <div class="division__card__projects col padding-sm-t2">
+
+                            <div class="row text-center">
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/consat1.png" height="150"></div>
+                                    <div>CONSAT-1<br>2010-2012</div>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/aleksandr_irl.png" height="150"></div>
+                                    <div>Aleksandr<br>2012-2018</div>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/aleksandr.png" height="150"></div>
+                                    <div>CSA CCP<br>2018-2021</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="division__card__action col-sm-2 d-flex align-items-end flex-column">
+                            <p class="mb-2 text-right">we build<br><span>satellites</span></p>
+                            <div class="mt-auto">
+								<a class="btn btn-dark btn-raised text-light" href="spacecraft.html">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="division__rocketry">
+                    <div class="division__title row justify-sm-center">
+                        <span>Rocketry</span>
+                    </div>
+                    <div class="division__card row">
+                        <div class="division__card__logo col-sm-3 text-sm-center">
+                            <img src="img/rocketry-logo.png" class="justify-sm-center" width="200" height="200px">
+                        </div>
+                        <div class="division__card__projects col padding-sm-t2">
+
+                            <div class="row">
+                                <div class="col-lg-3 text-center">
+                                    <div> <img src="img/arcturus.png" height="150"></div>
+                                    <div>Arcturus<br>2015</div>
+                                </div>
+
+                                <div class="col-lg-3 text-center">
+                                    <div> <img src="img/aurelius.png" height="150"></div>
+                                    <div>Aurelius<br>2016</div>
+                                </div>
+
+                                <div class="col-lg-3 text-center">
+                                    <div> <img src="img/maurice.png" height="150"></div>
+                                    <div>Maurice<br>2017</div>
+                                </div>
+                                
+                                <div class="col-lg-3 text-center">
+                                    <div> <img src="img/supersonice.png" height="150"></div>
+                                    <div>Supersonice<br>2018</div>
+                                </div>
+                                
+                               <!-- <div class="col-lg-3 text-center">
+                                    <div> <img src="img/rocketicon.png" height="100"></div>
+                                    <div>Liquid Propulsion<br>2019</div>
+                                </div>-->
+                            </div>
+
+                        </div>
+                        <div class="division__card__action col-sm-2 d-flex align-items-end flex-column">
+                            <p class="mb-2 text-right">we do<br><span>rocket science</span></p>
+                            <div class="mt-auto">
+                                <a class="btn btn-dark btn-raised text-light" href="rocketry.html">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="division__robotics">
+                    <div class="division__title row justify-sm-center">
+                        <span>Robotics</span>
+                    </div>
+                    <div class="division__card row">
+                        <div class="division__card__logo col-sm-3 text-sm-center">
+                            <img src="img/robotics.png" class="justify-sm-center" width="200px" height="200px">
+                        </div>
+                        <div class="division__card__projects col padding-sm-t2">
+
+                            <div class="row text-center">
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/OGRover.png" height="150"></div>
+                                    <div>Mars Rover<br>2013-2016</div>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/arm.png" height="150"></div>
+                                    <div>Asimov Robotic Arm<br>2017-2018</div>
+                                </div>
+                                
+                                  <div class="col-lg-4 ">
+                                    <div> <img src="img/OldRover.png" height="150"></div>
+                                    <div>Mars Rover<br>2018-2019</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="division__card__action col-sm-2 d-flex align-items-end flex-column">
+                            <p class="mb-2 text-right">we build<br><span>robots</span></p>
+                            <div class="mt-auto">
+                                <a class="btn btn-dark btn-raised text-light" href="robotics.html">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="division__special">
+                    <div class="division__title row justify-sm-center">
+                        <span>Special Projects</span>
+                    </div>
+                    <div class="division__card row">
+                        <div class="division__card__logo col-sm-3 text-sm-center">
+                            <img src="img/special-logo.png" class="justify-sm-center" width="200" height="200px">
+                        </div>
+                        <div class="division__card__projects col padding-sm-t2">
+
+                            <div class="row text-center">
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/hab.png" height="150"></div>
+                                    <div>Icarus High Altitude Balloon<br>2015-2019</div>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                    <div> <img src="img/xenos.png" height="150"></div>
+                                    <div>XENOS Initiative Solar Ecosystem<br>2018</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="division__card__action col-sm-2 d-flex align-items-end flex-column">
+                            <p class="mb-2 text-right">we love<br><span>space</span></p>
+                            <div class="mt-auto">
+                                <a class="btn btn-dark btn-raised text-light" href="specialprojects.html">Special Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="text-center pt-4">
+                    <small>We welcome students of every discipline, even outside engineering! Want to be a part of something amazing?<br><a href="">Join the team today or visit our office at H1029-7, Concordia University (SGW Campus)</a></small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="footer__social d-flex justify-content-center container pb-3">
+            <a target="_blank" href="https://www.facebook.com/Space.Concordia">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+            <a target="_blank" href="https://twitter.com/SpaceConcordia">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+            <a target="_blank" href="https://www.instagram.com/SpaceConcordia/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+            <a target="_blank" href="https://www.youtube.com/user/SpaceConcordia">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+            <a target="_blank" href="https://www.linkedin.com/company/space-concordia">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+        </div>
+		
+		<div class="footer__join">
+			<div class="text-center"><a href="https://goo.gl/forms/gGjKNAb269yundv42"><strong>Join the Team</strong></a>	
 		</div>
-		<!-- END OF CAROUSEL -->
+		
+        <div class="footer__copyright container">
+            <div class="text-center">&copy; 2018 Space Concordia · All rights reserved.</div>
+        </div>
+    </footer>
 
-		<!-- HEADINGS (DIVISIONS) -->
-     <!-- If you want to change the division pictures, replace either
-     	spacecraft.png
-     	rocketry.png
-     	robotics.png
-     	projects.png
-     	With whatever picture you want to replace it with.
-     	make sure it's the same format (png/jpg/gif) and same name. -->
-
-     	<div class="container marketing">
-
-     		<div class="division title">
-     			<div class="col-lg-12">
-     				<h1>DIVISIONS</h1>
-     			</div>
-     		</div>
-
-     		<div class="row">
-     			<!-- 1 -->
-     			<div class="col-lg-4">
-     				<a href="src/html/spacecraft.html"><img class="img-circle" src="img/spacecraft.jpg" alt="Robotics Division" width="200" height="200"></a>
-     				<h2>Spacecraft</h2>
-     			</div>
-     			<!-- 2 -->
-     			<div class="col-lg-4">
-     				<a href="src/html/rocketry.html"><img class="img-circle" src="img/rocketry.jpg" alt="Rocketry Division" width="200" height="200"></a>
-     				<h2>Rocketry</h2>
-     			</div>
-     			<!-- 3 -->
-     			<div class="col-lg-4">
-     				<a href="src/html/projects.html"><img class="img-circle" src="img/projects.jpg" alt="Projects Division" width="200" height="200"></a>
-     				<h2>Special Projects</h2>
-     			</div>
-     		</div>
-     		<!-- END DIVISIONS -->
-
-     		<!-- FEATURETTES -->
-
-     		<a name="about"><hr class="featurette-divider"></a>
-
-     		<div class="row featurette">
-     			<div class="col-md-7">
-     				<h2 class="featurette-heading">About <span class="text-muted">Us</span></h2>
-     				<p class="lead">Space Concordia is a student society at Concordia University that throws its members at challenging space and aerospace projects, to yield awesome results. We win Awards at national and international competitions, we showcase our school, but most importantly: Space Concordia teaches and trains excellent young scientists and engineers through hands-on work and an attitude of persistance and collaboration.<br><br>
-     					<a href="src/html/aboutus.html"><button type="button" class="btn btn-primary">More Details >></button></a></p>
-     				</div>
-     				<div class="col-md-5">
-     					<img class="featurette-image img-responsive center-block" src="img/patch.png" alt="Space Concordia Patch" height="500px" width="500px">
-     				</div>
-     			</div><!-- END ABOUT US -->
-     		</div>
-
-     		<a name="follow_us"><hr class="featurette-divider"></a>
-
-     		<div class="container marketing">
-     			<div class="follow us">
-     				<div class="col-lg-12">
-     					<h1>Follow Us</h1>
-     				</div>
-     			</div>
-     			<div class="row">
-     				<div class="col-lg-12">
-     					<p><!-- Social Media Icons -->
-     						<a href="https://www.facebook.com/Space.Concordia"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:36px"></i></a>&nbsp;
-     						<a href="https://twitter.com/SpaceConcordia"><i class="fa fa-twitter" aria-hidden="true" style="font-size:36px"></i></a>&nbsp;
-     						<a href="https://www.instagram.com/SpaceConcordia/"><i class="fa fa-instagram" aria-hidden="true" style="font-size:36px"></i></a>&nbsp;
-     						<a href="https://www.youtube.com/user/SpaceConcordia"><i class="fa fa-youtube" aria-hidden="true" style="font-size:36px"></i></a>&nbsp;
-     						<a href="https://www.linkedin.com/company/space-concordia"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:36px"></i></a>
-     					</p>
-     				</div><!-- .row -->
-     			</div><!-- .container marketing -->
-     		</div>
-     	</div>
-
-     	<hr class="featurette-divider" id="dividerone">
-     	<!-- map -->
-     	<div id="map"></div>
-     	<!-- end map -->
-     	<hr class="featurette-divider" id="dividertwo">
-
-     	<!-- footer -->
-     	<div class="container footer">
-     		<footer></footer>
-     	</div><!-- end footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaGU0-6aZH48QaiiiaurSz2Ugiepb5-7g"></script>
-    <script src="src/js/maps.js"></script>
-    <script src="src/js/utilities.js"></script>
-    <script src="src/js/smoothscrolling.js"></script>
-    <script src="src/js/expandableLinks.js"></script>
-    <script src="src/js/footer.js"></script>
+    <!--Import jQuery before materialize.js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/4912cabb52.js"></script>
 </body>
+
 </html>
