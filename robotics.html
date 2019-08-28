@@ -1,93 +1,96 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/robotics.css">
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta charset="UTF-8">
-	<link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+  	<meta charset="UTF-8">
 
-	<title>Space Concordia - Robotics</title>
-</head>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+  	<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+  	<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+  	<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+  	<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+  	<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+  	<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+  	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+  	<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+  	<link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+  	<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  	<link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  	<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
 
-<body>
+    <link rel="manifest" href="/manifest.json">
+  	<meta name="msapplication-TileColor" content="#ffffff">
+  	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  	<meta name="theme-color" content="#ffffff">
 
+  	<title>Space Concordia - Robotics</title>
+  </head>
+
+  <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
-
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/sc-brand.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                                       About Us
-                                      </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="mission.html">Our Mission</a>
-							<a class="dropdown-item" href="outreach.html">Outreach</a>
-                            <a class="dropdown-item" href="history.html">History</a>
-                            <a class="dropdown-item" href="exec.html">Executive Team</a>
-                            <a class="dropdown-item" href="faq.html">FAQ</a>
-							<a class="dropdown-item" href="https://medium.com/@space_concordia">Blog</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                                    Divisions
-                                  </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="spacecraft.html">Spacecraft</a>
-                            <a class="dropdown-item" href="rocketry.html">Rocketry</a>
-							<a class="dropdown-item" href="robotics.html">Robotics</a>
-                            <a class="dropdown-item" href="specialprojects.html">Special Projects</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sponsors.html">Sponsors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.concordia.ca/alumni-friends/giving-to-concordia/fundone/space-concordia.html"
-                            target="_blank">Donate</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/sc-brand.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                  About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="mission.html">Our Mission</a>
+                  <a class="dropdown-item" href="outreach.html">Outreach</a>
+                  <a class="dropdown-item" href="history.html">History</a>
+                  <a class="dropdown-item" href="exec.html">Executive Team</a>
+                  <a class="dropdown-item" href="faq.html">FAQ</a>
+			            <a class="dropdown-item" href="https://medium.com/@space_concordia">Blog</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                  Divisions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="spacecraft.html">Spacecraft</a>
+                  <a class="dropdown-item" href="rocketry.html">Rocketry</a>
+		              <a class="dropdown-item" href="robotics.html">Robotics</a>
+                  <a class="dropdown-item" href="specialprojects.html">Special Projects</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sponsors.html">Sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.concordia.ca/alumni-friends/giving-to-concordia/fundone/space-concordia.html"
+                    target="_blank">Donate</a>
+              </li>
+            </ul>
         </div>
-
+      </div>
     </nav>
 
     <section class="robotics__header  d-flex justify-content-center">
-        <span class="align-self-center mt-5">Robotics</span>
+      <span class="align-self-center mt-5">
+        <br>
+        Robotics
+      </span>
     </section>
     <!--<section class="content">
        <div class="about">
@@ -146,112 +149,122 @@
                     </div>
                 </div>
             </div>
-        </div>--->
+        </div>-->
 
-		<div class="container">'
+		<div class="container">
+      <!-- blurb -->
+    	<span>
+        <br>
+        Space Concordia’s Robotics Division was formed as an engineering final project in 2012. The team is composed of 5 main squads: Science, Power, Operations, Communications, and Structural. Over the years, Robotics has focused on different parts of
+    a rover, from the multipurpose arm, to science on board.
+      </span>
+      <!-- tab selector -->
+    	<div class="d-flex justify-content-center pt-3">
+    		<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    			<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#projects-tab">Projects</a></li>
+    			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#team-tab">Team</a></li>
+    			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#contact-tab">Contact</a></li>
+    			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sponsors-tab">Sponsors</a></li>
+    		</ul>
+    	</div>
+      <!-- tab content based on selected tab -->
+    	<div class="tab-content">
+        <!-- PROJECTS -->
+    		<div id="projects-tab" class="tab-pane fade show in active">
+    			<h2>Our Mission</h2>
+    			<p>
+            The Robotics division's mission consists of three aspects: Project based learning, professional excellence and community outreach.
+          </p>
+    			<p>
+            Our team is dedicated to developing competitive projects within the domain of aerospace robotics. These projects allow our members to learn outside of the classroom and put their already existing knowledge to practice. It is also a place to establish connections within the industry. Many alumni end up in positions within organizations such as the CSA, MDA and silicon valley. Finally, the projects are frequently showcased in outreach events once complete. This is done with the intent of promoting STEM within the outer community.
+          </p>
 
-
-		<span><br>Space Concordia’s Robotics Division was formed as an engineering final project in 2012. The team is composed of 5 main squads: Science, Power, Operations, Communications, and Structural. Over the years, Robotics has focused on different parts of
-a rover, from the multipurpose arm, to science on board.<span>
-
-
-			<div class="d-flex justify-content-center pt-3">
-				 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-					<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#projects-tab">Projects</a></li>
-					<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#team-tab">Team</a></li>
-					<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#contact-tab">Contact</a></li>
-					<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sponsors-tab">Sponsors</a></li>
-				</ul>
-			 </div>
-
-			<div class="tab-content">
-<!----PROJECTS------->
-				 <div id="projects-tab" class="tab-pane fade show in active">
-				<h2>Our Mission</h2>
-
-				<p>The Robotics division's mission consists of three aspects: Project based learning, professional excellence and community outreach.</p>
-
-				<p>Our team is dedicated to developing competitive projects within the domain of aerospace robotics. These projects allow our members to learn outside of the classroom and put their already existing knowledge to practice. It is also a place to establish connections within the industry. Many alumni end up in positions within organizations such as the CSA, MDA and silicon valley. Finally, the projects are frequently showcased in outreach events once complete. This is done with the intent of promoting STEM within the outer community.</p>
-
-				<h2>Current Project</h2>
-
-				<p>Space Concordia Robotics Division is currently developing a Mars rover that would act as an astronaut assistant for Mars exploration missions.</p>
-
-				<p>The rover is design with three attachment modules: A robotic manipulator, a scientific analysis module and an autonomous driving unit.</p>
-
-				<p>The team along with the rover, are currently registered to participate in two international competitions in 2019: The <a href="http://urc.marssociety.org/">URC</a> and the <a href="http://robo-crc.ca/">CIRC</a></p>
-
-				<p>Upon closure of the current project iterations and upon sufficient resources, the team would seek to expand and offer other robotic related projects to the student base. For suggestions and proposals, please contact <a href="robotics@spaceconcordia.ca">robotics@spaceconcordia.ca</a>.</p>
-				<p><br><br><br><br><br><br><br><br><br>_</p>
-				</div>
-<!----TEAM------->
-				 <div id="team-tab" class="tab-pane fade">
-				 <h2>Team Structure</h2>
-				 <br><br><p style="text-align:center"><img class="img" src="img/robotics/Team.png" width="80%">
-				 <p><br><br><br><br><br><br><br><br><br>_</p>
-				</div>
-<!-----CONTACT ROBOTICS------>
-				<div id="contact-tab" class="tab-pane fade">
-				<b>General inquiry and recruitment:</b> <a href="mailto:robotics@spaceconcordia.ca">robotics@spaceconcordia.ca</a>
-<br><b>Mobile platform team:</b> <a href="mailto:jiyeon.lee@spaceconcordia.ca">jiyeon.lee@spaceconcordia.ca</a>
-<br><b>Manipulator team:</b> <a href="mailto:aziz.misleh@spaceconcordia.ca">aziz.misleh@spaceconcordia.ca</a>
-<br><b>Power team:</b> <a href="mailto:jeffrey.hamel@spaceconcordia.ca">jeffrey.hamel@spaceconcordia.ca</a> or <a href="mailto:philippe.carvajal@spaceconcordia.ca">philippe.carvajal@spaceconcordia.ca</a>
-<br><b>Communications team:</b> <a href="mailto:daniel.savin@spaceconcordia.ca">daniel.savin@spaceconcordia.ca</a>
-<br><b>Software team:</b> <a href="mailto:peter.granitski@spaceconcordia.ca">peter.granitski@spaceconcordia.ca</a><br><b>Science and drill team:</b> <a href="mailto:zouhair.ghali@spaceconcordia.ca">zouhair.ghali@spaceconcordia.ca</a> or <a href="mailto:priyesh.patel@spaceconcordia.ca">priyesh.patel@spaceconcordia.ca</a>
-				<p><br><br><br><br><br><br><br><br><br>_</p>
-				</div>
-<!-----SPONSORS------->
-				<div id="sponsors-tab" class="tab-pane fade">
-				<!-- Eca, CCSL, Mimio, The Timken Company, Martin Gears, Applied Motion, Igus, JLCPCB, Polyplastics USA -->
-				<p style="text-align:center">
-<img class="centerspons" src="img/sponsors/18-19/concordia-logo.png" width="400">
-					<img class="centerspons" src="img/sponsors/18-19/ECA.png" width = "400">
-					<img class="centerspons" src="img/robotics/mimio-logo-800x255.png" width = "300">
-					<img class="centerspons" src="img/robotics/Timken.png" width = "300">
-					<img class="centerspons" src="img/robotics/martin.png" width = "400" >
-					<!-- <img class="centerspons" src="img/sponsors/18-19/desjardins.jpg" width = "400"> -->
-					<img class="centerspons" src="img/robotics/amp-moons-logo.png" width = "400">
-					<img class="centerspons" src="img/robotics/igus.svg" width = "400">
-					<a href="https://jlcpcb.com/"><img class="centerspons" src="img/sponsors/18-19/jlcpcb.png" width = "400"></a>
-					<img class="centerspons" src="img/robotics/Polyplastics.png" width = "400">
-          <a href="https://www.creality3dofficial.com/"><img class="centerspons" src="img/robotics/creality.png" width = "400"></a></p>
-	<p><br><br><br><br><br><br><br><br><br>_</p>
-				</div>
-
-
-
-				</div>
-
-
-    </section>
-
+    			<h2>Current Project</h2>
+    			<p>
+            Space Concordia Robotics Division is currently developing a Mars rover that would act as an astronaut assistant for Mars exploration missions.
+          </p>
+    			<p>
+            The rover is design with three attachment modules: A robotic manipulator, a scientific analysis module and an autonomous driving unit.
+          </p>
+    			<p>
+            The team along with the rover, are currently registered to participate in two international competitions in 2019: The <a href="http://urc.marssociety.org/">URC</a> and the <a href="http://robo-crc.ca/">CIRC</a>
+          </p>
+    			<p>
+            Upon closure of the current project iterations and upon sufficient resources, the team would seek to expand and offer other robotic related projects to the student base. For suggestions and proposals, please contact <a href="robotics@spaceconcordia.ca">robotics@spaceconcordia.ca</a>.
+          </p>
+    			<p>
+            <br><br><br><br><br><br><br><br><br>_
+          </p>
+    		</div>
+        <!-- TEAM -->
+    	  <div id="team-tab" class="tab-pane fade">
+    		  <h2>Team Structure</h2>
+    		  <br><br>
+          <p style="text-align:center"><img class="img" src="img/robotics/Team.png" width="80%">
+    		  <p><br><br><br><br><br><br><br><br><br>_</p>
+    		</div>
+        <!-- CONTACT ROBOTICS -->
+    		<div id="contact-tab" class="tab-pane fade">
+    			<b>General inquiry and recruitment:</b> <a href="mailto:robotics@spaceconcordia.ca">robotics@spaceconcordia.ca</a>
+          <br><b>Mobile platform team:</b> <a href="mailto:jiyeon.lee@spaceconcordia.ca">jiyeon.lee@spaceconcordia.ca</a>
+          <br><b>Manipulator team:</b> <a href="mailto:aziz.misleh@spaceconcordia.ca">aziz.misleh@spaceconcordia.ca</a>
+          <br><b>Power team:</b> <a href="mailto:jeffrey.hamel@spaceconcordia.ca">jeffrey.hamel@spaceconcordia.ca</a> or <a href="mailto:philippe.carvajal@spaceconcordia.ca">philippe.carvajal@spaceconcordia.ca</a>
+          <br><b>Communications team:</b> <a href="mailto:daniel.savin@spaceconcordia.ca">daniel.savin@spaceconcordia.ca</a>
+          <br><b>Software team:</b> <a href="mailto:peter.granitski@spaceconcordia.ca">peter.granitski@spaceconcordia.ca</a><br><b>Science and drill team:</b> <a href="mailto:zouhair.ghali@spaceconcordia.ca">zouhair.ghali@spaceconcordia.ca</a> or <a href="mailto:priyesh.patel@spaceconcordia.ca">priyesh.patel@spaceconcordia.ca</a>
+    			<p>
+            <br><br><br><br><br><br><br><br><br>_
+          </p>
+    		</div>
+        <!-- SPONSORS -->
+    		<div id="sponsors-tab" class="tab-pane fade">
+    			<!-- Eca, CCSL, Mimio, The Timken Company, Martin Gears, Applied Motion, Igus, JLCPCB, Polyplastics USA -->
+    			<p style="text-align:center">
+            <img class="centerspons" src="img/sponsors/18-19/concordia-logo.png" width="400">
+    				<img class="centerspons" src="img/sponsors/18-19/ECA.png" width = "400">
+    				<img class="centerspons" src="img/robotics/mimio-logo-800x255.png" width = "300">
+    				<img class="centerspons" src="img/robotics/Timken.png" width = "300">
+    				<img class="centerspons" src="img/robotics/martin.png" width = "400" >
+    				<!-- <img class="centerspons" src="img/sponsors/18-19/desjardins.jpg" width = "400"> -->
+    				<img class="centerspons" src="img/robotics/amp-moons-logo.png" width = "400">
+    				<img class="centerspons" src="img/robotics/igus.svg" width = "400">
+    				<a href="https://jlcpcb.com/"><img class="centerspons" src="img/sponsors/18-19/jlcpcb.png" width = "400"></a>
+    				<img class="centerspons" src="img/robotics/Polyplastics.png" width = "400">
+            <a href="https://www.creality3dofficial.com/"><img class="centerspons" src="img/robotics/creality.png" width = "400"></a></p>
+          </p>
+          <p>
+            <br><br><br><br><br><br><br><br><br>_
+          </p>
+    		</div>
+    	</div>
+    </div>
+    <!--</section>-->
 
     <footer>
-        <div class="footer__social d-flex justify-content-center container pb-3">
-            <a target="_blank" href="https://www.facebook.com/Space.Concordia">
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    </a>
-            <a target="_blank" href="https://twitter.com/SpaceConcordia">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-            <a target="_blank" href="https://www.instagram.com/SpaceConcordia/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-            <a target="_blank" href="https://www.youtube.com/user/SpaceConcordia">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                        </a>
-            <a target="_blank" href="https://www.linkedin.com/company/space-concordia">
-                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                            </a>
-        </div>
+      <div class="footer__social d-flex justify-content-center container pb-3">
+        <a target="_blank" href="https://www.facebook.com/Space.Concordia">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/SpaceConcordia">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/SpaceConcordia/">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://www.youtube.com/user/SpaceConcordia">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/company/space-concordia">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </div>
 
-		<div class="footer__join">
-			<div class="text-center"><a href="https://goo.gl/forms/gGjKNAb269yundv42"><strong>Join the Team</strong></a>
-		</div>
+  		<div class="footer__join">
+  			<div class="text-center"><a href="https://goo.gl/forms/gGjKNAb269yundv42"><strong>Join the Team</strong></a>
+  		</div>
 
-        <div class="footer__copyright container">
-            <div class="text-center">&copy; 2018 Space Concordia · All rights reserved.</div>
-        </div>
+      <div class="footer__copyright container">
+        <div class="text-center">&copy; 2018 Space Concordia · All rights reserved.</div>
+      </div>
     </footer>
 
     <!--Import jQuery before materialize.js-->
@@ -262,6 +275,5 @@ a rover, from the multipurpose arm, to science on board.<span>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/4912cabb52.js"></script>
-</body>
-
+  </body>
 </html>
